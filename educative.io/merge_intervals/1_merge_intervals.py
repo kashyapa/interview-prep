@@ -31,3 +31,7 @@ def merge(intervals):
 
     merged_intervals.append(Interval(start, end))
     return merged_intervals
+
+
+if __name__ == "__main__":
+    merge([Interval(1, 4), Interval(2, 5), Interval(7, 9)])
