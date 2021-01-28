@@ -14,6 +14,7 @@ def minWindow(s: str, t: str) -> str:
             chars_to_cover[c] -= 1
             if chars_to_cover[c] >= 0:
                 remaining_to_cover -= 1
+
         while remaining_to_cover == 0:
             if min_length > r - left + 1:
                 window_start, window_end = left, r
