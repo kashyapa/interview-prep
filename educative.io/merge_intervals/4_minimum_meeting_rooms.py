@@ -3,6 +3,7 @@
 
 from heapq import *
 
+
 class Meeting:
     def __init__(self, start, end):
         self.start = start

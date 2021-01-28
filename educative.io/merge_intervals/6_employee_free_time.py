@@ -13,7 +13,6 @@ class Interval:
 class EmployeeInterval:
     def __init__(self, interval, employeeIndex, intervalIndex):
         self.interval = interval
-
         self.employeeIndex = employeeIndex
         self.intervalIndex = intervalIndex  # index of the interval in the employee list
 
@@ -31,28 +30,31 @@ def find_employee_free_time(schedule):
     previous_interval = min_heap[0].interval
 
     while min_heap:
-        current_interval = heappop(min_heap)
+        current_employee = heappop(min_heap)
 
-        if previous_interval.end < current_interval.interval.start:
-            result.append(Interval(previous_interval.end, current_interval.interval.start))
-            previous_interval = current_interval.interval
+        if previous_interval.end < current_employee.interval.start:
+            result.append(Interval(previous_interval.end, current_employee.interval.start))
+            previous_interval = current_employee.interval
         else:
-            if previous_interval.end < current_interval.end:
-                previous_interval = current_interval.interval
+            if previous_interval.end < current_employee.end:
+                previous_interval = current_employee.interval
 
-        employee_schedule = schedule[current_interval.employeeIndex]
-        if len(employee_schedule) > current_interval.intervalIndex + 1:
-            heappush(min_heap, EmployeeInterval(employee_schedule[current_interval.intervalIndex + 1],
-                                                current_interval.employeeIndex,
-                                                current_interval.intervalIndex + 1))
+        employee_schedule = schedule[current_employee.employeeIndex]
+        if len(employee_schedule) > current_employee.intervalIndex + 1:
+            heappush(min_heap, EmployeeInterval(employee_schedule[current_employee.intervalIndex + 1],
+                                                current_employee.employeeIndex,
+                                                current_employee.intervalIndex + 1))
 
     return result
 
 
 def main():
 
-    input = [[Interval(1, 3), Interval(5, 6)], [
-        Interval(2, 3), Interval(6, 8)]]
+    input = [
+        [Interval(1, 3), Interval(5, 6)],
+        [Interval(2, 3), Interval(6, 8)]
+    ]
+
     print("Free intervals: ", end='')
     for interval in find_employee_free_time(input):
         interval.print_interval()
