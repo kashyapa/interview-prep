@@ -6,8 +6,7 @@ from heapq import *
 
 def k_pairs_with_largest_sum(nums1, nums2, k):
     min_heap = []
-    sum = 0
-    count = 0
+
     for i in range(0, min(k, len(nums1))):
         for j in range(0, min(k, len(nums2))):
             if len(min_heap) < k:
@@ -20,6 +19,6 @@ def k_pairs_with_largest_sum(nums1, nums2, k):
                     heappush(nums1[i] + nums2[j], i, j)
     result = []
     for (num, i, j) in min_heap:
-        result.append(nums1[i], nums2[j])
+        result.append([nums1[i], nums2[j]])
 
     return result
