@@ -1,5 +1,7 @@
 from heapq import *
 
+# Sort from M sorted lists
+
 
 class ListNode:
     def __init__(self, value):
@@ -13,23 +15,22 @@ class ListNode:
 def merge_lists(lists):
     min_heap = []
 
-    for root in lists:
-        if root is not None:
-            heappush(min_heap, root)
-
+    for first_node in lists:
+        if first_node is not None:
+            heappush(min_heap, first_node)
     head, tail = None, None
 
     while min_heap:
-        node = heappop(min_heap)
-
+        p = heappop(min_heap)
         if head is None:
-            head = tail = node
+            head = tail = p
         else:
-            tail.next = node
+            tail.next = p
             tail = tail.next
 
-        if node.next is not None:
-            heappush(min_heap, node.next)
+        if p.next is not None:
+            heappush(min_heap, p.next)
+
     return head
 
 
