@@ -15,16 +15,19 @@ class Interval:
 
 def merge(intervals):
     intervals.sort(key=lambda x: x.start)
+
     start = intervals[0].start
     end = intervals[0].end
     merged = []
+
     for i in range(1, len(intervals)):
+        # add intervals that end before the current interval starts
         if end < intervals[i].start:
             merged.append(Interval(start, end))
             start = intervals[i].start
             end = intervals[i].end
-
         else:
+        # adjust the end interval
             end = max(end, intervals[i].end)
 
     merged.append(Interval(start, end))
