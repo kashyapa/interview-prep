@@ -14,7 +14,7 @@ class Interval:
 
 
 def merge(intervals):
-    intervals.sort(key= lambda x: x.start)
+    intervals.sort(key=lambda x: x.start)
     start = intervals[0].start
     end = intervals[0].end
     merged = []
