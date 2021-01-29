@@ -7,7 +7,7 @@ def insert(intervals, new_interval):
         merged.append(intervals[i])
         i += 1
 
-    # add intervals that START before the new interval,  by MERGING with new interval
+    # add intervals that START before the new interval ends,  by MERGING with new interval
     while i < len(intervals) and intervals[i][0] < new_interval[1]:
         start = min(intervals[i][0], new_interval[0])
         end = max(intervals[i][1], new_interval[1])
