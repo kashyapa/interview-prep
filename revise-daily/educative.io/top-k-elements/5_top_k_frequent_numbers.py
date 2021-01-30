@@ -9,13 +9,13 @@ def find_k_frequent_numbers(nums, k):
     min_heap = []
     count = Counter(nums)
 
-    for k, v in count:
-        heappush(min_heap, v)
+    for c, v in count.items():
+        heappush(min_heap, (v, c))
         if len(min_heap) > k:
             heappop(min_heap)
 
     while min_heap:
-        topNumbers.append(heappop(min_heap[1]))
+        topNumbers.append(heappop(min_heap)[1])
 
     return topNumbers
 
