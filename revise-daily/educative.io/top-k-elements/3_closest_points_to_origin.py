@@ -17,12 +17,12 @@ def find_closest_points(points, k):
     max_heap = []
 
     for i in range(k):
-        heappush(max_heap, (-points[i].distance_from_origin()))
+        heappush(max_heap, (-points[i]))
 
     for i in range(k, len(points)):
 
-        if -points[i].distance_from_origin() > max_heap[0]:
+        if -points[i].distance_from_origin() < max_heap[0].distance_from_origin():
             heappop(max_heap)
-            heappush(max_heap, -points[i].distance_from_origin())
+            heappush(max_heap, -points[i])
 
     return max_heap
