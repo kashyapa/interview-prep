@@ -20,7 +20,7 @@ def rearrange_string(str):
     result_string = []
     while max_heap:
 
-        char, frequency = heappop(max_heap)
+        frequency, char = heappop(max_heap)
 
         if previous_char and -previous_frequency > 0:
             heappush(max_heap, (previous_frequency, previous_char))
@@ -30,3 +30,13 @@ def rearrange_string(str):
         previous_frequency = frequency + 1
 
     return ''.join(result_string) if len(result_string) == len(str) else ""
+
+
+def main():
+        print("Rearranged string:  " + rearrange_string("aappp"))
+        print("Rearranged string:  " + rearrange_string("Programming"))
+        print("Rearranged string:  " + rearrange_string("aapa"))
+
+
+if __name__ == "__main__":
+    main()
