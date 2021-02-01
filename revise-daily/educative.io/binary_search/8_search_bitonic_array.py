@@ -56,7 +56,6 @@ def search_bitonic_array(arr, key):
     return idx
 
 
-
 def main():
     print(search_bitonic_array([1, 3, 8, 4, 3], 4))
     print(search_bitonic_array([3, 8, 3, 1], 8))
