@@ -25,6 +25,7 @@ def binary_search(arr, key, find_max_index):
         elif arr[m] < key:
             l = m + 1
         else:  # key == arr[m]
+            # continue the loop by recording the last seen index which holds "key", until
             key_index = m
             if find_max_index:
                 l = m + 1
