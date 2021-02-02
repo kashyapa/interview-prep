@@ -9,21 +9,19 @@ def search_rotated_array(arr, key):
     l, r = 0, len(arr) - 1
 
     while l <= r:
-        m = l + (r-l)//2
+        m = l + (r - l)//2
         if arr[m] == key:
             return m
 
-        if arr[m] >= arr[l]:
-            if arr[l] <= key < arr[m]:
+        if arr[m] > arr[l]:
+            if arr[m] > key >= arr[l]:
                 r = m - 1
             else:
                 l = m + 1
-
         else:
-            # arr[m] < arr[l]:
             if arr[m] < key <= arr[r]:
                 l = m + 1
-            else: # arr[m] > key:
+            else:
                 r = m - 1
     return -1
 
