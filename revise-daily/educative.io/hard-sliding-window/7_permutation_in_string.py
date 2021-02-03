@@ -22,8 +22,8 @@ def find_string_anagrams(str1, pattern):
 
 
 def main():
-  print(find_string_anagrams("ppqp", "pq"))
-  print(find_string_anagrams("abbcabc", "abc"))
+    print(find_string_anagrams("ppqp", "pq"))
+    print(find_string_anagrams("abbcabc", "abc"))
 
 
 if __name__ == '__main__':

@@ -1,3 +1,9 @@
+# Given a string, find the length of the longest substring, which has no repeating characters.
+# Input: String="aabccbb"
+# Output: 3
+# Explanation: The longest substring without any repeating characters is "abc".
+
+
 def longest_string_with_unique_characters(s):
     char_index_map = {}
     left = 0
