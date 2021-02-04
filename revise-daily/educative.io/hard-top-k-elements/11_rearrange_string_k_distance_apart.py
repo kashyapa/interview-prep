@@ -2,8 +2,8 @@
 # characters are at least ‘K’ distance apart from each other.
 
 from collections import Counter
-from heapq import *
 from collections import deque
+from heapq import *
 
 
 def reorganize_string(str, k):
