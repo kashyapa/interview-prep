@@ -4,16 +4,16 @@
 
 def find_letter_case_string_permutations(str):
     permutations = []
+
     permutations.append(str)
 
     for i in range(len(str)):
+
         if str[i].isalpha():
-            n = len(permutations)
-            for j in range(n):
+            for j in range(len(permutations)):
                 chs = list(permutations[j])
                 chs[i] = chs[i].swapcase()
                 permutations.append(''.join(chs))
-
     return permutations
 
 
