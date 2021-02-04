@@ -23,16 +23,16 @@ def find_permutations(nums):
     permutations.append([])
 
     for i in range(len(nums)):
+        for _ in range(len(permutations)):
+            old_perm = permutations.popleft()
 
-        old_perm = permutations.popleft()
-
-        for j in range(len(old_perm)):
-            new_perm = list(old_perm)
-            new_perm.insert(j, nums[i])
-            if len(new_perm) == len(nums):
-                result.append(new_perm)
-            else:
-                permutations.append(new_perm)
+            for j in range(len(old_perm)+1):
+                new_perm = list(old_perm)
+                new_perm.insert(j, nums[i])
+                if len(new_perm) == len(nums):
+                    result.append(new_perm)
+                else:
+                    permutations.append(new_perm)
 
     return result
 
@@ -41,4 +41,5 @@ def main():
     print("Here are all the permutations: " + str(find_permutations([1, 3, 5])))
 
 
-main()
+if __name__ == "__main__":
+    main()
