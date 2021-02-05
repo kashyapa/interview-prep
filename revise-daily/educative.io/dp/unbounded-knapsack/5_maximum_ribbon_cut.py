@@ -36,4 +36,5 @@ def main():
     print(count_ribbon_pieces([3, 5], 7))
 
 
-main()
+if __name__ == "__main__":
+    main()
