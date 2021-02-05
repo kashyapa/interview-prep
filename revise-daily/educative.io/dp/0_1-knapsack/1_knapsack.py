@@ -33,7 +33,7 @@ def solve_knapsack_memo(memo, profits, weights, capacity, index):
     if weights[index] <= capacity:
         profit_with_item = profits[index] + solve_knapsack_memo(memo, profits, weights, capacity-weights[index], index+1)
 
-    profit_without_item = solve_knapsack_memo(memo, profits, weights, weights[index], index+1)
+    profit_without_item = solve_knapsack_memo(memo, profits, weights, capacity, index+1)
 
     memo[index][capacity] = max(profit_with_item, profit_without_item)
 
