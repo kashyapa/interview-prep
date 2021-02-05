@@ -40,6 +40,31 @@ def solve_knapsack_memo(memo, profits, weights, capacity, index):
     return memo[index][capacity]
 
 
+def solve_knapsack_dp(dp, profits, weights, capacity):
+
+    if capacity == 0 or len(weights) != len(profits):
+        return 0
+
+    # if capacity is 0, profit is 0, since we can't add any weights
+    for i in range(len(weights)):
+        dp[i][0] = 0
+
+    for capacity_i in range(capacity + 1):
+        dp[0][capacity_i] = profits[capacity_i] if weights[0] < capacity else 0
+
+    profit1, profit2 = 0, 0
+
+    for i in range(len(weights)):
+        for j in range(1, capacity+1):
+            if weights[i] <= j:
+                profit1 = profits[i] + dp[i-1][j-weights[i]]
+            profit2 = dp[i-1][j]
+
+            dp[i][j] = max(profit1, profit2)
+
+    return dp[len(profits)-1][capacity]
+
+
 def main():
     print(solve_knapsack([1, 6, 10, 16], [1, 2, 3, 5], 7))
     print(solve_knapsack([1, 6, 10, 16], [1, 2, 3, 5], 6))
