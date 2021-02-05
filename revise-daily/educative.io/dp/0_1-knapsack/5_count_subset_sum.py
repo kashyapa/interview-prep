@@ -1,8 +1,9 @@
 # Given a set of positive numbers, find the total number of subsets whose sum is equal to a given number ‘S’.
 
-def count_subsets_equal_to_s(nums, s):
-    return count_subsets_equal_to_s_rec(nums, s, 0)
 
+def count_subsets(nums, s):
+    # return count_subsets_equal_to_s_rec(nums, s, 0)
+    return count_subset_equal_to_sum_dp(nums, s)
 
 def count_subsets_equal_to_s_rec(nums, sum, index):
     if sum == 0:
@@ -18,6 +19,24 @@ def count_subsets_equal_to_s_rec(nums, sum, index):
     count_without_num = count_subsets_equal_to_s_rec(nums, sum, index + 1)
 
     return count_with_num + count_without_num
+
+
+def count_subset_equal_to_sum_dp(nums, sum):
+    dp = [[-1 for _ in range(sum+1)] for _ in range(len(nums))]
+
+    for i in range(len(nums)):
+        dp[i][0] = 1
+
+    for i in range(1, sum + 1):
+        dp[0][i] = 1 if nums[0] == i else 0
+
+    for i in range(1, len(nums)):
+        for j in range(1, sum + 1):
+            dp[i][j] = dp[i - 1][j]
+            if nums[i] <= j:
+                dp[i][j] += dp[i - 1][j - nums[i]]
+
+    return dp[len(nums)-1][sum]
 
 
 def main():
