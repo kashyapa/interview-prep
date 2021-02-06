@@ -1,5 +1,6 @@
 # Given a number ‘n’, implement a method to count how many possible ways there are to express ‘n’ as the sum of 1,
 # 3, or 4.
+
 def count_ways(n):
     dp = [0 for x in range(n + 1)]
     return count_ways_recursive(dp, n)
