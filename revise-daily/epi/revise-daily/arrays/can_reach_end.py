@@ -1,4 +1,4 @@
-def can_reach_end(arr):
+01def can_reach_end(arr):
     furthest_reach_so_far, last_index = 0, len(arr) - 1
 
     for i in range(len(arr)):
