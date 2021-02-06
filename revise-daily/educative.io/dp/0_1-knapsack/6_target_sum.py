@@ -20,4 +20,3 @@
 # This essentially converts our problem to: “Find count of subsets of the given numbers whose sum is equal to”,
 #
 #     => (S + Sum(num)) / 2
-

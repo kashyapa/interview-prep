@@ -34,16 +34,16 @@ def calculateFibonacci_bottom_up(n):
 
 
 def calculateFibonacci_memory_optimized(n):
-  if n < 2:
-    return n
+    if n < 2:
+        return n
 
-  n1, n2, temp = 0, 1, 0
-  for i in range(2, n + 1):
-    temp = n1 + n2
-    n1 = n2
-    n2 = temp
+    n1, n2, temp = 0, 1, 0
+    for i in range(2, n + 1):
+        temp = n1 + n2
+        n1 = n2
+        n2 = temp
 
-  return n2
+    return n2
 
 
 def main():

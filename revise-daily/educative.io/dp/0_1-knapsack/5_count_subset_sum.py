@@ -5,6 +5,7 @@ def count_subsets(nums, s):
     # return count_subsets_equal_to_s_rec(nums, s, 0)
     return count_subset_equal_to_sum_dp(nums, s)
 
+
 def count_subsets_equal_to_s_rec(nums, sum, index):
     if sum == 0:
         return 1
@@ -22,7 +23,7 @@ def count_subsets_equal_to_s_rec(nums, sum, index):
 
 
 def count_subset_equal_to_sum_dp(nums, sum):
-    dp = [[-1 for _ in range(sum+1)] for _ in range(len(nums))]
+    dp = [[-1 for _ in range(sum + 1)] for _ in range(len(nums))]
 
     for i in range(len(nums)):
         dp[i][0] = 1
@@ -36,7 +37,7 @@ def count_subset_equal_to_sum_dp(nums, sum):
             if nums[i] <= j:
                 dp[i][j] += dp[i - 1][j - nums[i]]
 
-    return dp[len(nums)-1][sum]
+    return dp[len(nums) - 1][sum]
 
 
 def main():

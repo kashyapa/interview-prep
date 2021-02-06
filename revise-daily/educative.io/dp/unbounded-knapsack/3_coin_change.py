@@ -23,21 +23,20 @@ def coin_change_rec(coins, sum, index):
 
 
 def coin_change_dp(coins, sum):
-
-    dp = [[-1 for _ in range(sum+1)] for _ in range(len(coins))]
+    dp = [[-1 for _ in range(sum + 1)] for _ in range(len(coins))]
     n = len(coins)
 
     for i in range(n):
         dp[i][0] = 1
 
     for i in range(n):
-        for s in range(sum+1):
+        for s in range(sum + 1):
             if i > 0:
-                dp[i][s] = dp[i-1][s]
+                dp[i][s] = dp[i - 1][s]
             if s >= coins[i]:
-                dp[i][s] += dp[i][s-coins[i]]
+                dp[i][s] += dp[i][s - coins[i]]
 
-    return dp[n-1][sum]
+    return dp[n - 1][sum]
 
 
 def main():

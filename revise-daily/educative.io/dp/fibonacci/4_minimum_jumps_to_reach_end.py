@@ -12,7 +12,7 @@ def count_min_jumps(jumps):
 def count_min_jumps_recursive(jumps, currentIndex):
     n = len(jumps)
 
-    if currentIndex == n-1:
+    if currentIndex == n - 1:
         return 0
 
     if jumps[currentIndex] == 0:

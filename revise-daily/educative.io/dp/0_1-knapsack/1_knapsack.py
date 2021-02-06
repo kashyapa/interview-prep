@@ -4,7 +4,7 @@
 
 
 def solve_knapsack(profits, weights, capacity):
-    dp = [[-1 for x in range(capacity+1)] for y in range(len(profits))]
+    dp = [[-1 for x in range(capacity + 1)] for y in range(len(profits))]
     # return solve_knapsack_rec(profits, weights, capacity, 0)
     return solve_knapsack_memo(dp, profits, weights, capacity, 0)
 
@@ -14,15 +14,14 @@ def solve_knapsack_rec(profits, weights, capacity, index):
         return 0
     profit_with_item_at_index = 0
     if weights[index] <= capacity:
-
-        profit_with_item_at_index = profits[index] + solve_knapsack_rec(profits, weights, capacity-weights[index], index + 1)
+        profit_with_item_at_index = profits[index] + solve_knapsack_rec(profits, weights, capacity - weights[index],
+                                                                        index + 1)
 
     profit_without_item_at_index = solve_knapsack_rec(profits, weights, capacity, index + 1)
     return max(profit_with_item_at_index, profit_without_item_at_index)
 
 
 def solve_knapsack_memo(memo, profits, weights, capacity, index):
-
     if capacity <= 0 or index >= len(profits):
         return 0
 
@@ -31,9 +30,10 @@ def solve_knapsack_memo(memo, profits, weights, capacity, index):
 
     profit_with_item = 0
     if weights[index] <= capacity:
-        profit_with_item = profits[index] + solve_knapsack_memo(memo, profits, weights, capacity-weights[index], index+1)
+        profit_with_item = profits[index] + solve_knapsack_memo(memo, profits, weights, capacity - weights[index],
+                                                                index + 1)
 
-    profit_without_item = solve_knapsack_memo(memo, profits, weights, capacity, index+1)
+    profit_without_item = solve_knapsack_memo(memo, profits, weights, capacity, index + 1)
 
     memo[index][capacity] = max(profit_with_item, profit_without_item)
 
@@ -41,7 +41,6 @@ def solve_knapsack_memo(memo, profits, weights, capacity, index):
 
 
 def solve_knapsack_dp(dp, profits, weights, capacity):
-
     if capacity == 0 or len(weights) != len(profits):
         return 0
 
@@ -55,14 +54,14 @@ def solve_knapsack_dp(dp, profits, weights, capacity):
     profit1, profit2 = 0, 0
 
     for i in range(len(weights)):
-        for j in range(1, capacity+1):
+        for j in range(1, capacity + 1):
             if weights[i] <= j:
-                profit1 = profits[i] + dp[i-1][j-weights[i]]
-            profit2 = dp[i-1][j]
+                profit1 = profits[i] + dp[i - 1][j - weights[i]]
+            profit2 = dp[i - 1][j]
 
             dp[i][j] = max(profit1, profit2)
 
-    return dp[len(profits)-1][capacity]
+    return dp[len(profits) - 1][capacity]
 
 
 def main():
