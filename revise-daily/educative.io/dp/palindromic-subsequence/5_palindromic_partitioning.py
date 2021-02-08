@@ -10,7 +10,6 @@ def find_MPP_cuts_recursive(st, start_index, end_index):
     if start_index >= end_index or is_palindromic(st, start_index, end_index):
         return 0
 
-
     min_cuts = end_index - start_index
     for i in range(start_index, end_index+1):
         if is_palindromic(st, start_index, i):
