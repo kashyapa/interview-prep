@@ -15,13 +15,13 @@ def count_rotations(arr):
         m = l + (r-l)//2
         if arr[l] < arr[r]:
             return l
-        elif arr[m] > arr[l]:
+        if arr[m] > arr[l]:
             l = m + 1
         else:
             r = m
         count = l
 
-    return count + 1 # the array has not been rotated
+    return count + 1  # the array has not been rotated
 
 
 def main():
