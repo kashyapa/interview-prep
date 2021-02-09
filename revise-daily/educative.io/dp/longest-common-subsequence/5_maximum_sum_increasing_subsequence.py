@@ -24,9 +24,26 @@ def find_MSIS_rec(arr, current_index, prev_index, sum):
     return max(s1, s2)
 
 
+def find_MSIS_dp(arr):
+    n1 = len(arr)
+    dp = [arr[i] for i in range(n1)]
+
+    max_sum = 0
+
+    for i in range(1, n1):
+        for j in range(i):
+            if arr[i] > arr[j] and dp[i] < arr[j] + dp[j]:
+                dp[i] = dp[j] + arr[i]
+                max_sum = max(max_sum, dp[i])
+
+    return max_sum
+
+
 def main():
     print(find_MSIS([4, 1, 2, 6, 10, 1, 12]))
     print(find_MSIS([-4, 10, 3, 7, 15]))
+    print(find_MSIS_dp([4, 1, 2, 6, 10, 1, 12]))
+    print(find_MSIS_dp([-4, 10, 3, 7, 15]))
 
 
 if __name__ == "__main__":
