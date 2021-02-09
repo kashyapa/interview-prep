@@ -8,8 +8,20 @@
 
 
 def count_rotations(arr):
+    l, r = 0, len(arr) - 1
+    count = 0
 
-    return 0  # the array has not been rotated
+    while l < r:
+        m = l + (r-l)//2
+        if arr[l] < arr[r]:
+            return l
+        elif arr[m] > arr[l]:
+            l = m + 1
+        else:
+            r = m
+        count = l
+
+    return count + 1 # the array has not been rotated
 
 
 def main():
