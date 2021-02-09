@@ -18,7 +18,7 @@ def find_SCS_rec(s1, s2, i1, i2):
     if s1[i1] == s2[i2]:
         return 1 + find_SCS_rec(s1, s2, i1+1, i2+1)
     c2 = 1 + find_SCS_rec(s1, s2, i1, i2+1)
-    c3 = 1+ find_SCS_rec(s1, s2, i1+1, i2)
+    c3 = 1 + find_SCS_rec(s1, s2, i1+1, i2)
 
     return min(c2,c3)
 
