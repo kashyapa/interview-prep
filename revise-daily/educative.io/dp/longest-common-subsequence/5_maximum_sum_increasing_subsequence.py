@@ -32,7 +32,7 @@ def find_MSIS_dp(arr):
 
     for i in range(1, n1):
         for j in range(i):
-            if arr[i] > arr[j] and dp[i] < arr[j] + dp[j]:
+            if arr[i] > arr[j] and dp[i] < arr[i] + dp[j]:
                 dp[i] = dp[j] + arr[i]
                 max_sum = max(max_sum, dp[i])
 
