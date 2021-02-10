@@ -9,6 +9,18 @@ from heapq import *
 # We can start an investment project only when we have the required capital. Once a project is selected, we can assume
 # that its profit has become our capital.
 
+#
+#
+"""
+
+ 1. push (capital[i], i) to min heap
+ 2.     capital, i --- pop out all items in min heap whose capital value is less than available capital
+ 3.     push profit[i] to maxheap
+        repeat 2 and 3 until capital[i] < available_capital
+ 4. available_capital += profit[i]
+ 
+
+"""
 
 def find_maximum_capital(capital, profits, numberOfProjects, initialCapital):
     max_heap = []
