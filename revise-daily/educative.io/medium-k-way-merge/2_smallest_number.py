@@ -1,5 +1,15 @@
 # Given ‘M’ sorted arrays, find the K’th smallest number among all the arrays.
 
+"""
+Time complexity #
+Since we’ll be going through at most ‘K’ elements among all the arrays, and we will remove/add one element in the heap
+in each step, the time complexity of the above algorithm will be O(K*logM)O(K∗logM) where ‘M’ is the total number of
+input arrays.
+
+Space complexity #
+The space complexity will be O(M)O(M) because, at any time, our min-heap will be storing one number from all the
+ ‘M’ input arrays.
+"""
 from heapq import *
 
 
