@@ -13,11 +13,11 @@
 def cyclic_sort(nums):
     for i in range(len(nums)):
         if nums[i] != i+1:
-         while nums[i] != i+1 and nums[i+1] < len(nums):
-            actual_index = nums[i] - 1
-            value_at_actual_index = nums[actual_index]
-            nums[actual_index] = nums[i]
-            nums[i] = value_at_actual_index
+            while nums[i] != i+1 and nums[i+1] < len(nums):
+                actual_index = nums[i] - 1
+                value_at_actual_index = nums[actual_index]
+                nums[actual_index] = nums[i]
+                nums[i] = value_at_actual_index
 
     return nums
 
@@ -26,6 +26,7 @@ def main():
     print(cyclic_sort([3, 1, 5, 4, 2]))
     print(cyclic_sort([2, 6, 4, 3, 1, 5]))
     print(cyclic_sort([1, 5, 6, 4, 3, 2]))
+
 
 if __name__ == "__main__":
     main()
