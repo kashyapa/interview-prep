@@ -12,7 +12,7 @@
 
 def cyclic_sort(nums):
     for i in range(len(nums)):
-        while nums[i] != i+1 and nums[i+1] < len(nums):
+        while nums[i] != i+1:
             actual_index = nums[i] - 1
             nums[i], nums[actual_index] = nums[actual_index], nums[i]
 
