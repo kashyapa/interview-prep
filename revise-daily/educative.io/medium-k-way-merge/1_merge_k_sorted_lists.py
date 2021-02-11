@@ -1,5 +1,15 @@
 from heapq import *
+"""
+Time complexity #
+Since we’ll be going through all the elements of all arrays and will be removing/adding one element to the heap in 
+each step, the time complexity of the above algorithm will be O(N*logK),O(N∗logK), where ‘N’ is the total number of 
+elements in all the ‘K’ input arrays.
 
+Space complexity #
+The space complexity will be O(K)O(K) because, at any time, our min-heap will be storing one number from all the 
+‘K’ input arrays.
+
+"""
 # Sort from M sorted lists
 
 
