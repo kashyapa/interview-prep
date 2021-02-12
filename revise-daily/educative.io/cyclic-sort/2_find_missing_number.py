@@ -9,13 +9,13 @@
 
 def find_missing_number(nums):
     for i in range(len(nums)):
-        while nums[i] != i+1 and nums[i] > 0:
-            actual_index = nums[i]-1
+        while nums[i] != i and nums[i] < len(nums):
+            actual_index = nums[i]
             nums[i], nums[actual_index] = nums[actual_index], nums[i]
 
     for i in range(len(nums)):
-        if nums[i] != i+1:
-            return i+1
+        if nums[i] != i:
+            return i
 
     return len(nums)
 
