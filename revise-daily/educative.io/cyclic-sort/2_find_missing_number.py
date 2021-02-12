@@ -8,10 +8,13 @@
 
 
 def find_missing_number(nums):
-    for i in range(len(nums)):
-        while nums[i] != i and nums[i] < len(nums):
-            actual_index = nums[i]
-            nums[i], nums[actual_index] = nums[actual_index], nums[i]
+    i = 0
+    while i < len(nums):
+        adjusted_index = nums[i]
+        if nums[i] < len(nums) and nums[i] != nums[adjusted_index]:
+            nums[i], nums[adjusted_index] = nums[adjusted_index], nums[i]
+        else:
+            i += 1
 
     for i in range(len(nums)):
         if nums[i] != i:
