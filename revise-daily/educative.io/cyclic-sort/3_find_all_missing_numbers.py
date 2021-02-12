@@ -9,7 +9,18 @@
 def find_missing_numbers(nums):
     i = 0
     while i < len(nums):
+        adjusted_index = nums[i] - 1
+        if nums[i] != nums[adjusted_index]:
+            nums[i], nums[adjusted_index] = nums[adjusted_index], nums[i]
+        else:
+            i += 1
 
+    result = []
+    for i in range(len(nums)):
+        if nums[i] != i+1:
+            result.append(i+1)
+
+    return result
 
 
 def main():
