@@ -12,7 +12,7 @@ def dutch_flag_partition(pivot, arr):
             larger -= 1
 
 
-def dutch_flag_partition2(pivot, arr):
+def dutch_flag_sort(pivot, arr):
     small, equal, large = 0, 0, len(arr) - 1
     while equal < large:
         if arr[equal] < pivot:
@@ -23,3 +23,17 @@ def dutch_flag_partition2(pivot, arr):
         else:
             large -= 1
             arr[equal], arr[large] = arr[large], arr[equal]
+
+
+def main():
+    arr = [1, 0, 2, 1, 0]
+    dutch_flag_sort(arr)
+    print(arr)
+
+    arr = [2, 2, 0, 1, 2, 0]
+    dutch_flag_sort(arr)
+    print(arr)
+
+
+if __name__ == "__main__":
+    main()
