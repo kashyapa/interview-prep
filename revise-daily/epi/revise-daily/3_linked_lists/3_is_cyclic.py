@@ -32,9 +32,9 @@ def find_loop_node(l, slow):
         end = end.next
         loop_count -= 1
 
-    while True:
+    while start is not end:
         start = start.next
         end = end.next
-        if end.next == start:
-            return start
+
+    return start
 
