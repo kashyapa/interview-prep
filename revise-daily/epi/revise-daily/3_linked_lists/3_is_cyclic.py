@@ -18,6 +18,23 @@ def is_cyclic(l1: ListNode):
 
 
 def find_loop_node(l, slow):
-    fast, slow = l, l
+    p = slow
+    loop_count = 0
     while True:
+        p = p.next
+        loop_count += 1
+        if p == slow:
+            break
+
+    start, end = l, l
+
+    while loop_count != 0:
+        end = end.next
+        loop_count -= 1
+
+    while True:
+        start = start.next
+        end = end.next
+        if end.next == start:
+            return start
 
