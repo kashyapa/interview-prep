@@ -15,4 +15,6 @@ def look_and_say(n):
         s = next_number(s)
     return s
 
+
 if __name__ == '__main__':
+    print(look_and_say(10))
