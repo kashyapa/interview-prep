@@ -4,15 +4,28 @@ class ListNode:
         self.next = p
 
 
+def get_length(l):
+    length = 0
+    while l:
+        l = l.next
+        length += 1
+    return length
+
+
 def over_lapping_lists(l1, l2):
-    while l1.next is not None:
-        l1 = l1.next
-    l1.next =
-    while l2 != l1:
-        if l2.next is None:
-            return False
+    l1_length = get_length(l1)
+    l2_length = get_length(l2)
+
+    if l1_length > l2_length:
+        return over_lapping_lists(l2, l1)
+
+    for _ in range(l2_length - l1_length):
         l2 = l2.next
 
-    return l2 == l1
+    while l1 and l2 and l1 is not l2:
+        l1 = l1.next
+        l2 = l2.next
+
+    return l2
 
 
