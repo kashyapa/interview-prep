@@ -9,7 +9,7 @@ def list_pivoting(L: ListNode, x: int):
     head, tail = L, L
     temp = None
 
-    while L and L.next:
+    while L:
         if L.data < x:
             temp = L.next
             L.next = head
@@ -19,12 +19,13 @@ def list_pivoting(L: ListNode, x: int):
             tail.next = L
             tail = L
         L = temp
+    tail.next = None
     return head
 
 
 if __name__ == '__main__':
-    A = ListNode(6, None)
-    B = ListNode(7, A)
+    A = ListNode(0, None)
+    B = ListNode(5, A)
     C = ListNode(2, B)
     D = ListNode(4, C)
     E = ListNode(1, D)
