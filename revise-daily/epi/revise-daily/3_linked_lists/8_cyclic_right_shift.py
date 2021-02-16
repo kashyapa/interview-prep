@@ -22,4 +22,19 @@ def cyclic_right_shift(L: ListNode, k: int):
     return L
 
 
-0
+if __name__ == '__main__':
+    A = ListNode(7, None)
+    B = ListNode(6, A)
+    C = ListNode(5, B)
+    D = ListNode(4, C)
+    E = ListNode(3, D)
+    F = ListNode(2, E)
+    G = ListNode(1, F)
+
+    cyclic_right_shift(G, 3)
+
+    while G and G.next:
+        if G is None:
+            break
+        print(str(G.data) + "-->" + str(G.next.data))
+        G = G.next
