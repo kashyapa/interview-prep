@@ -32,6 +32,7 @@ def minimum_window_subsequence_O_N(paragraph, words):
     keyword_to_idx = {k: i for i, k in enumerate(words)}
     last_keyword_occurrence = [-1] * len(words)
     smallest_subarray_covering_keywords = [math.inf] * len(words)
+    shortest_distance = math.inf
 
     for i, w in enumerate(paragraph):
         if w in keyword_to_idx:
@@ -45,7 +46,10 @@ def minimum_window_subsequence_O_N(paragraph, words):
 
             last_keyword_occurrence[idx_position] = i
 
-    return smallest_subarray_covering_keywords[len(words)-1]
+            if idx_position == len(words) - 1 and smallest_subarray_covering_keywords[-1] < shortest_distance:
+                shortest_distance = smallest_subarray_covering_keywords[-1]
+
+    return shortest_distance
 
 
 if __name__ == '__main__':
