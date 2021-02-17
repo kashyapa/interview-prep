@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+x66#!/usr/bin/env python
 # check if a string can be permuted to form a palindrome
 import collections
 
