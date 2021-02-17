@@ -8,17 +8,20 @@ def minimum_window_subsequence(paragraph, words):
     for r, word in enumerate(paragraph):
         if word == words[0]:
             w_count = len(words)
-            keywords_remaining = w_count
+            keyword_index_to_cover = 0
 
             for j in range(r, len(paragraph)):
-                if paragraph[j] == words[w_count-keywords_remaining]:
-                    keywords_remaining -= 1
-
-                    if keywords_remaining == 0:
+                if paragraph[j] == words[keyword_index_to_cover]:
+                    keyword_index_to_cover += 1
+                    if keyword_index_to_cover == w_count:
                         min_window = min(min_window, j - r)
                         break
 
     return min_window
+
+
+#def minimum_window_subsequence_O_N(paragraph, words)
+
 
 
 if __name__ == '__main__':
