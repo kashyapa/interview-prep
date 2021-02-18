@@ -28,4 +28,6 @@ def is_substring_concatenation_of_words(big_string, list_of_words):
 
 if __name__ == '__main__':
     print(is_substring_concatenation_of_words("amanaplanacanal", ["ana", "pla"]))
+    print(is_substring_concatenation_of_words("wordgoodgoodgoodbestword", ["word","good","best","good"]))
+
 
