@@ -22,10 +22,9 @@ def find_word_concatenation(str1, words):
         words_count = Counter(words)
         while True:
             substr = str1[j: j + word_size]
-            if words_count[substr] > 0:
-                words_count[substr] -= 1
-                if words_count[substr] >= 0:
-                    words_to_be_covered -= 1
+            words_count[substr] -= 1
+            if words_count[substr] >= 0:
+                words_to_be_covered -= 1
 
                 if words_to_be_covered == 0:
                     result.append(i)
