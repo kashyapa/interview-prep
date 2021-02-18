@@ -2,9 +2,10 @@ from collections import deque
 
 
 def find_order(tasks, prerequisites):
-    sortedOrder = []
+
+    sorted_order = []
     if tasks <= 0:
-        return sortedOrder
+        return sorted_order
 
     # a. Initialize the graph
     inDegree = {i: 0 for i in range(tasks)}  # count of incoming edges
@@ -26,7 +27,7 @@ def find_order(tasks, prerequisites):
     # if a child's in-degree becomes zero, add it to the sources queue
     while sources:
         vertex = sources.popleft()
-        sortedOrder.append(vertex)
+        sorted_order.append(vertex)
         for child in graph[vertex]:  # get the node's children to decrement their in-degrees
             inDegree[child] -= 1
             if inDegree[child] == 0:
@@ -34,10 +35,10 @@ def find_order(tasks, prerequisites):
 
     # if sortedOrder doesn't contain all tasks, there is a cyclic dependency between tasks, therefore, we
     # will not be able to schedule all tasks
-    if len(sortedOrder) != tasks:
+    if len(sorted_order) != tasks:
         return []
 
-    return sortedOrder
+    return sorted_order
 
 
 def main():
