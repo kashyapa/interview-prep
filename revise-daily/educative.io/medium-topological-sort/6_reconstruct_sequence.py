@@ -60,4 +60,5 @@ def main():
           str(can_construct([3, 1, 4, 2, 5], [[3, 1, 5], [1, 4, 2, 5]])))
 
 
-main()
+if __name__ == '__main__':
+    main()
