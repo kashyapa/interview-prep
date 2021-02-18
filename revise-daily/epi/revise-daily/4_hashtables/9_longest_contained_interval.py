@@ -1,4 +1,4 @@
-def longest_contained_interval(A):
+def longest_contained_interval_func(A):
     unprocessed_entries = set(A)
     longest_contained_interval = 0
 
@@ -14,6 +14,6 @@ def longest_contained_interval(A):
             unprocessed_entries.remove(q)
             upper_bound += 1
 
-        longest_contained_interval = max(longest_contained_interval, q-p-1)
+        longest_contained_interval = max(longest_contained_interval, upper_bound - lower_bound -1)
 
     return longest_contained_interval
