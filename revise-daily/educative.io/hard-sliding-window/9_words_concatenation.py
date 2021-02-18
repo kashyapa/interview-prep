@@ -38,3 +38,5 @@ def find_word_concatenation(str1, words):
 if __name__ == '__main__':
     print(find_word_concatenation("wordgoodgoodgoodbestword", ["word","good","best","good"]))
     print(find_word_concatenation("catfoxcat", ["cat", "fox"]))
+    print(find_word_concatenation("barfoothefoobarman", ["foo", "bar"]))
+    print(find_word_concatenation("barfoofoobarthefoobarman", ["bar","foo","the"]))
