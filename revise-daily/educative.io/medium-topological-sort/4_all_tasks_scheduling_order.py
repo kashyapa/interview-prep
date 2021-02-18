@@ -10,10 +10,8 @@ from collections import deque
 
 
 def print_orders(tasks, prerequisites):
-    # TODO: Write your code here
     graph = {i: [] for i in range(tasks)}
     in_degree = {i: 0 for i in range(tasks)}
-
 
     for parent, child in prerequisites:
         graph[parent].append(child)
