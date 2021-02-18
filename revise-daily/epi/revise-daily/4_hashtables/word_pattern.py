@@ -12,4 +12,6 @@ def word_pattern(s, p):
 			vals.add(p[i])
 	return True
 
-print(word_pattern("abcac", "catct"))
+
+if __name__ == '__main__':
+    print(word_pattern("abcac", "catct"))
