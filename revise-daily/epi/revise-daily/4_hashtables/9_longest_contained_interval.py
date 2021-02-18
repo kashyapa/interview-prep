@@ -3,15 +3,16 @@ def longest_contained_interval(A):
     longest_contained_interval = 0
 
     while unprocessed_entries:
-        p = unprocessed_entries.pop()
-        while p in unprocessed_entries:
+        a = unprocessed_entries.pop()
+        lower_bound = a - 1
+        while lower_bound in unprocessed_entries:
             unprocessed_entries.remove(p)
-            p -= 1
+            lower_bound -= 1
 
-        q = n+1
-        while q in unprocessed_entries:
+        upper_bound = a + 1
+        while upper_bound in unprocessed_entries:
             unprocessed_entries.remove(q)
-            q += 1
+            upper_bound += 1
 
         longest_contained_interval = max(longest_contained_interval, q-p-1)
 
