@@ -28,6 +28,7 @@ def find_word_concatenation(str1, words):
 
                 if words_to_be_covered == 0:
                     result.append(i)
+                    break
                 j += word_size
             else:
                 break
