@@ -25,6 +25,17 @@ def unique_paths_rec(m, n):
     return unique_paths(0, 0)
 
 
+def unique_paths_dp(m, n):
+    # dp = [[0] * n for _ in range(m)]
+    dp = [[1 if i == 0 or j == 0 else 0 for i in range(n)] for j in range(m)]
+
+    for i in range(1, m):
+        for j in range(1, n):
+            dp[i][j] = dp[i-1][j] + dp[i][j-1]
+    return dp[m-1][n-1]
+
+
 if __name__ == '__main__':
     print(traverse_2_d_array(5, 4))
     print(unique_paths_rec(5, 4))
+    print(unique_paths_dp(5, 4))
