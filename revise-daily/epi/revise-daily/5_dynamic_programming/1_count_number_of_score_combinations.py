@@ -1,7 +1,7 @@
 def find_total_score_combinations(final_score, individual_plays):
 
-    #return find_score_combinations_rec(final_score, individual_plays, 0)
-    return final_score_combinations_dp(final_score, individual_plays)
+    return find_score_combinations_rec(final_score, individual_plays, 0)
+    #return final_score_combinations_dp(final_score, individual_plays)
 
 
 def find_score_combinations_rec(final_score, individual_plays, index):
@@ -26,8 +26,8 @@ def final_score_combinations_dp(final_score, individual_plays):
 
     for i in range(len(individual_plays)):
         for j in range(1, final_score + 1):
-            without_this_play = dp[i-1][j] if i >=  1 else 0
-            with_this_play = dp[i][j-individual_plays[i]] if j>= individual_plays[i] else 0
+            without_this_play = dp[i-1][j] if i >= 1 else 0
+            with_this_play = dp[i][j-individual_plays[i]] if j >= individual_plays[i] else 0
 
             dp[i][j] = with_this_play + without_this_play
 

@@ -33,5 +33,5 @@ def bed_bath_beyond(s: str, words: set):
 
 
 if __name__ == '__main__':
-    set = set(["bed", "bath", "beyond", "hand", "and"])
-    print(bed_bath_beyond("bedbathandbeyond", set))
+    set2 = {"bed", "bath", "bat", "beyond", "hand", "and"}
+    print(bed_bath_beyond("bedbathandbeyond", set2))
