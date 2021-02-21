@@ -16,10 +16,10 @@ def count_PS_dp(st):
         count += 1
 
     for start_index in range(n-1, -1, -1):
-        for end_index in range(start_index+1,n):
+        for end_index in range(start_index+1, n):
 
             if st[start_index] == st[end_index]:
-                if end_index - start_index == 1 or dp[start_index+1][end_index-1] == True:
+                if end_index - start_index == 1 or dp[start_index+1][end_index-1] is True:
                     dp[start_index][end_index] = True
                     count += 1
 
