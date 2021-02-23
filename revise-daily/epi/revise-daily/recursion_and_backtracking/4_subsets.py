@@ -11,6 +11,7 @@ from collections import deque
 
 """
 
+
 def generate_subsets(nums):
     subsets = deque()
     subsets.append([])
