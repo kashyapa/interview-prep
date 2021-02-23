@@ -1,9 +1,10 @@
 class NumberOfLis(object):
     def findNumberOfLIS(self, nums):
         N = len(nums)
-        if N <= 1: return N
-        lengths = [0] * N #lengths[i] = longest ending in nums[i]
-        counts = [1] * N #count[i] = number of longest ending in nums[i]
+        if N <= 1:
+            return N
+        lengths = [0] * N  # lengths[i] = longest ending in nums[i]
+        counts = [1] * N  # count[i] = number of longest ending in nums[i]
 
         for j, num in enumerate(nums):
             for i in range(j):
