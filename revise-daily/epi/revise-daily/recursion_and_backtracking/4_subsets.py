@@ -1,6 +1,16 @@
 from collections import deque
 
 
+"""
+ 
+ Iterate over the length of input array
+ 
+ for each iteration over the input array, iterate over all the elements in subset array
+ append the current number indexed by input array to each subset element
+ 
+
+"""
+
 def generate_subsets(nums):
     subsets = deque()
     subsets.append([])
