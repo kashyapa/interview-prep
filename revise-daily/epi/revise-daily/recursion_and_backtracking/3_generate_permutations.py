@@ -7,7 +7,8 @@ def generate_permutations(arr):
     permutations.append([])
 
     for i in range(len(arr)):
-        for _ in range(len(permutations)):
+        n = len(permutations)
+        for _ in range(n):
             old_perm = permutations.popleft()
             for j in range(len(old_perm)+1):
                 new_perm = list(old_perm)
