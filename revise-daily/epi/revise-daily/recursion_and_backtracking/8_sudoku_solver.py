@@ -5,10 +5,11 @@ import itertools
 def solve_sudoku(partial_assignment):
 
     def solve_partial_sudoku(i, j):
-        if i == len(partial_assignment):i = 0
-        j += 1
-        if j == len(partial_assignment[i]):
-            return True
+        if i == len(partial_assignment):
+            i = 0
+            j += 1
+            if j == len(partial_assignment[i]):
+                return True
 
         if partial_assignment[i][j] != empty_entry:
             return solve_partial_sudoku(i+1, j)
@@ -29,7 +30,7 @@ def solve_sudoku(partial_assignment):
                 val == partial_assignment[region_size * I + a][region_size * J + b]
                 for a, b in itertools.product(range(region_size), repeat=2))
 
-        for val, in range(1, len(partial_assignment) + 1):
+        for val in range(1, len(partial_assignment) + 1):
             if valid_to_add(i, j, val):
                 partial_assignment[i][j] = val
                 if solve_partial_sudoku(i + 1, j):
