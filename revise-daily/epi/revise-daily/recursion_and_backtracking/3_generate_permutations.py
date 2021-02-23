@@ -1,6 +1,15 @@
 from collections import deque
 
 
+"""
+
+    Iterate over the input array
+    Iterate over the length of the permutation queue, for each item of input array
+        
+        for each permutation element, insert arr[i] at every index position in the permutation element
+        
+"""
+
 def generate_permutations(arr):
     result = []
     permutations = deque()
