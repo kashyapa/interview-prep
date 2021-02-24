@@ -1,6 +1,6 @@
 def three_sum_problem(arr: list, target: int):
 
-    def two_sum(arr, sum)
+    def two_sum(arr, sum):
         i, j = 0, len(arr) - 1
         while i < j:
             if arr[i] + arr[j] == sum:
