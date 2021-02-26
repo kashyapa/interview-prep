@@ -1,8 +1,10 @@
 class GraphVertex:
     WHITE, GRAY, BLACK = range(3)
+
     def __init__(self):
         self.color = GraphVertex.WHITE
         self.edges = []
+
 
 def is_graph_cyclic(vertices: list[GraphVertex]):
 
@@ -27,4 +29,3 @@ def is_graph_cyclic(vertices: list[GraphVertex]):
                 return True
 
     return False
-
