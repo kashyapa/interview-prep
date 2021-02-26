@@ -7,8 +7,8 @@ from collections import deque
     Add the flipped coordinate to the queue
 """
 
-def flip_boolean_matrix(x, y, image):
 
+def flip_boolean_matrix(x, y, image):
     color = image[x][y]
     q = deque([(x, y)])
     image[x][y] = not image[x][y]
