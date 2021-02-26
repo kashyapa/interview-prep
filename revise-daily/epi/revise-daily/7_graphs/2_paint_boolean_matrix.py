@@ -1,8 +1,9 @@
 from collections import deque
 
 """
-    Get neighbors of current coordinate from queue
-    if it is white, flip it
+    Get  current coordinate from queue
+    get the neighbors of that coordinate
+    if any of the neighbors is white, flip it
     Add the flipped coordinate to the queue
 """
 

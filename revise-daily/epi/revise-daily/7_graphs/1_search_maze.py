@@ -27,7 +27,6 @@ def search_maze(maze):
         failed_points.add(c)
         return False
 
-
     path = []
     failed_points = set()
 
