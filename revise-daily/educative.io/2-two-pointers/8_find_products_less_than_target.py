@@ -11,7 +11,7 @@ def find_subarrays(arr, target):
     left = 0
     for right in range(len(arr)):
         product *= arr[right]
-        while (product >= target and left < len(arr)):
+        while product >= target and left < len(arr):
             product /= arr[left]
             left += 1
         # since the product of all numbers from left to right is less than the target therefore,

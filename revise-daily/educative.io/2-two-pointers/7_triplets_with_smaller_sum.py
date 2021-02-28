@@ -9,7 +9,7 @@ def triplet_with_smaller_sum(arr, target):
 def search_pair(arr, target_sum, first):
     count = 0
     left, right = first + 1, len(arr) - 1
-    while (left < right):
+    while left < right:
         if arr[left] + arr[right] < target_sum:  # found the triplet
             # since arr[right] >= arr[left], therefore, we can replace arr[right] by any number between
             # left and right to get a sum less than the target sum
