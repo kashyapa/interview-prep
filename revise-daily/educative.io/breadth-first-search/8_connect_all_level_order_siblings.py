@@ -22,7 +22,6 @@ def connect_level_order_siblings(root):
     queue.append(root)
 
     previous_node = None
-    current_node = None
 
     while queue:
         current_node = queue.popleft()
