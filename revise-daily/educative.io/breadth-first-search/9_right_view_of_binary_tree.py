@@ -3,6 +3,7 @@ class TreeNode:
         self.val = val
         self.left, self.right = None, None
 
+
 from collections import deque
 
 
@@ -21,7 +22,6 @@ def tree_right_view(root):
                 queue.append(p.left)
             if p.right:
                 queue.append(p.right)
-
 
     return result
 
