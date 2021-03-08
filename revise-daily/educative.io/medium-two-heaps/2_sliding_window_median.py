@@ -23,7 +23,7 @@ class SlidingWindowMedian:
     def find_sliding_window_median(self, nums, k):
         result = [0.0 for x in range(len(nums) - k + 1)]
         for i in range(len(nums)):
-            if not self.maxHeap or nums[i] < self.maxHeap[0]:
+            if not self.maxHeap or nums[i] <= -self.maxHeap[0]:
                 heappush(self.maxHeap, -nums[i])
             else:
                 heappush(self.minHeap, nums[i])

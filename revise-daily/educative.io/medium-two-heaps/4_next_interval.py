@@ -2,7 +2,7 @@
 # its next interval ‘j’ will have the smallest ‘start’ greater than or equal to the ‘end’ of ‘i’.
 #
 # Write a function to return an array containing indices of the next interval of each input interval. If there is no
-# next interval of a given interval, return -1. It is given that none of the intervals have the same start point.
+# next interval of a given interval, return -1. It is given that none of the intervals have` the same start point.
 
 # Input: Intervals [[2,3], [3,4], [5,6]]
 # Output: [1, 2, -1]
@@ -27,7 +27,7 @@ def find_next_interval(intervals):
         heappush(start_points_max_heap, (-intervals[i].start, i))
         heappush(end_points_max_heap, (-intervals[i].end, i))
 
-    result = [0 for x in range(len(intervals))]
+    result = [0 for _ in range(len(intervals))]
 
     for _ in range(len(intervals)):
         max_end, idx = heappop(end_points_max_heap)
