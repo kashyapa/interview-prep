@@ -12,7 +12,7 @@ def is_cyclic(l1: ListNode):
         fast = fast.next.next
 
         if slow == fast:
-            return find_loop_node(l, slow)
+            return find_loop_node(l1, slow)
 
     return None
 

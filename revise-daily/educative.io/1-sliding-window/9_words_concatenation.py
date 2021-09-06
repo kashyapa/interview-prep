@@ -1,4 +1,5 @@
 from collections import Counter
+import collections
 
 # Given a string and a list of words, find all the starting indices of substrings in the given string that are a
 # concatenation of all the given words exactly once without any overlapping of words. It is given that all words
@@ -34,6 +35,51 @@ def find_word_concatenation(str1, words):
                 break
     return result
 
+
+class Solution:
+    def findSubstring(self, s: str, words: List[str]) -> List[int]:
+        unit_size = len(words[0])
+        res = []
+        for i, c in enumerate(s):
+            j = i
+            char_counter = collections.Counter(words)
+            keyword_count = len(char_counter)
+            while True:
+                if j + unit_size > len(s):
+                    break
+                substr = s[j: j + unit_size]
+                char_counter[substr] -= 1
+                if char_counter[substr] < 0:
+                    break
+                if char_counter[substr] == 0:
+                    keyword_count -= 1
+                j += unit_size
+                if keyword_count == 0:
+                    res.append(i)
+        return res
+
+
+
+def word_break(str, word_dict):
+
+
+    counter = Counter(word_dict)
+    words_to_be_covered = len(word_dict)
+
+    for i in range(len(str)):
+        for w in word_dict:
+            if str[i:i+len(w)] == w:
+                counter[w] -= 1
+                if counter[w] == 0:
+                    words_to_be_covered -= 1
+                    if words_to_be_covered == 0:
+                        print("found all words")
+                        return True
+    return False
+
+
+if __name__ == "__main__":
+    print(word_break("leetcode", ["leet", "leet"]))
 
 if __name__ == '__main__':
     print(find_word_concatenation("wordgoodgoodgoodbestword", ["word","good","best","good"]))

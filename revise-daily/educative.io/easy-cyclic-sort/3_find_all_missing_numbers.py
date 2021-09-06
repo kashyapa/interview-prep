@@ -19,7 +19,7 @@ def find_missing_numbers(nums):
     for i in range(len(nums)):
         if nums[i] != i+1:
             result.append(i+1)
-
+    print(nums)
     return result
 
 

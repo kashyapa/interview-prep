@@ -22,9 +22,7 @@ def find_paths(root, sum):
         else:
             find_paths_rec(root.left, sum - root.val, path)
             find_paths_rec(root.right, sum - root.val, path)
-
             path.pop()
-
         return
 
     find_paths_rec(root, sum, [])

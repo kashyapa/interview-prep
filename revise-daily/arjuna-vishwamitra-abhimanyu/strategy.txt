@@ -1,0 +1,7 @@
+1. build momentum and a solid base with Educative -- 3 days
+2. get tougher and formidable with EPI and algoexpert -- 1 week
+3. Practise newer problems from other sources and leetcode
+ Use the concept of compounding preparation
+4. Iterate more
+5. Practise till you're bored
+* iterate iterate iterate

@@ -1,8 +1,5 @@
 #!/usr/bin/env python
 
-
-
-
 class max_stack:
     max_cache = []
     max_count = {}

@@ -16,3 +16,18 @@ def longest_string_with_unique_characters(s):
         char_index_map[c] = i
         max_length = max(max_length, i - left + 1)
     return max_length
+
+def longest_string_with_unique_chars(str):
+    longest_length = 0
+    last_dup_char_index = -1
+    char_index = {}
+    l = 0
+    for i, c in enumerate(str):
+        # dup seen
+        if c in char_index:
+            if char_index[c] > l:
+                l = char_index[c] + 1
+            char_index[c] = i
+        longest_length = max(longest_length, i - l + 1)
+    return longest_length
+

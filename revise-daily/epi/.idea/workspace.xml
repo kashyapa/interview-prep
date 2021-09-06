@@ -1,0 +1,1189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="708161c3-6ecc-4600-bb19-8c3a77709abf" name="Default Changelist" comment="2/25/2021">
+      <change afterPath="$PROJECT_DIR$/../../craft-demo/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../craft-demo/player_service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../craft-demo/players_repo/Player2.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../craft-demo/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../craft-demo/run.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../craft-demo/src/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algoexpert/strings/caesar_cipher.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algoexpert/strings/non_repeating_character.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algoexpert/strings/underscore_substring.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algoexpert/trees/node_depths.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../april-22/in_memory_filesystem.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../april-22/k_way_merge.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../april-22/trees.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../april-24/leetcode-curated.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../april-25/.idea/april-25.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../april-25/heap_problems.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../april-25/subsets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../april-27/epi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../april-29/graph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../april-29/sorting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../april-29/subsets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../april19th/heap-related/doordash.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../april19th/heap-related/merge_intervals.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../april19th/heap-related/top_k_elements.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../april19th/heap-related/two_heap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../april19th/sliding-window/sliding_window.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../april19th/two-pointers/triplet_sum_close_to_target.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../april20/epi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../april20/knapsack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../april21/regular_expression_match.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../april21/word_ladder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../april_17_18/educative/all_subsequence_problems.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../april_17_18/educative/longest_common_subsequence.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../april_17_18/educative/longest_common_substring.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../april_17_18/educative/longest_palindromic_subsequence.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../april_17_18/educative/longest_palindromic_substring.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../april_17_18/epi/compute_skyline.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../april_17_18/epi/copy_postings_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../april_17_18/epi/defective_jugs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../april_17_18/epi/egg_dropping_problem.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../april_17_18/epi/find_kth_largest_element.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../april_17_18/epi/find_line_through_most_points.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../april_17_18/epi/kth_largest_element.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../april_17_18/epi/longest_subarray_sum_constraint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../april_17_18/epi/longest_substring_with_matching_parens.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../april_17_18/epi/max_two_d_subarray.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../april_17_18/epi/maximum_subarray_sum_circular_array.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../april_17_18/epi/merge_sort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../april_17_18/epi/n_queens.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../april_17_18/epi/phone_mapping.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../april_17_18/epi/positions_attacked_by_rooks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../april_17_18/epi/regular_expression_matching.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../april_17_18/epi/search_sorted_array_of_unknown_length.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../april_17_18/epi/trapping_rain_water.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../educative.io/1-sliding-window/max_consecutive_ones.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../educative.io/1-sliding-window/max_consecutives_ones_III.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../educative.io/1-sliding-window/minimum_window_subsequence.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../educative.io/1-sliding-window/word_break.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../educative.io/heap-related/hard-top-k-elements/12_scheduling_tasks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../educative.io/heap-related/medium-k-way-merge/merge_k_sorted_arrays.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../educative.io/medium-dp/0_1-knapsack/find_subset_sum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../educative.io/medium-topological-sort/accounts_merge.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/revise-daily/11_honors_class/convert_bst_dll.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/revise-daily/11_honors_class/copy_postings_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/revise-daily/11_honors_class/longest_subarray_with_sum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/revise-daily/11_honors_class/longest_valid_parentheses.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/revise-daily/11_honors_class/maximal_rectangle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/revise-daily/11_honors_class/maximum_sum_circular_subarray.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/revise-daily/11_honors_class/regular_expression_match.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/revise-daily/11_honors_class/rook_attacking_positions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/revise-daily/6_greedy_algorithms/2_schedule_minimize_waiting_time.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/revise-daily/8_recursion_and_backtracking/sudoku_checker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/revise-daily/8_recursion_and_backtracking/word_search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../may1st/educative_epi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../may1st/leetcode.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../misc/four_sum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../misc/in_memory_fs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../misc/maximum_sum_submatrix.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../misc/merge_sort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../misc/merge_sorted_arrays.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../misc/quick_sort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../misc/three_sum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../webapp/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../webapp/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../webapp/src/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../webapp/templates/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../webapp/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../educative.io/1-sliding-window/3_longest_substring_with_k_distinct.py" beforeDir="false" afterPath="$PROJECT_DIR$/../educative.io/1-sliding-window/3_longest_substring_with_k_distinct.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../educative.io/1-sliding-window/4_fruits_into_baskets.py" beforeDir="false" afterPath="$PROJECT_DIR$/../educative.io/1-sliding-window/4_fruits_into_baskets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../educative.io/1-sliding-window/5_longest_string_unique_characters.py" beforeDir="false" afterPath="$PROJECT_DIR$/../educative.io/1-sliding-window/5_longest_string_unique_characters.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../educative.io/1-sliding-window/6_longest_substring_with_replacement.py" beforeDir="false" afterPath="$PROJECT_DIR$/../educative.io/1-sliding-window/6_longest_substring_with_replacement.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../educative.io/1-sliding-window/8_minimum_window_substring.py" beforeDir="false" afterPath="$PROJECT_DIR$/../educative.io/1-sliding-window/8_minimum_window_substring.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../educative.io/1-sliding-window/9_words_concatenation.py" beforeDir="false" afterPath="$PROJECT_DIR$/../educative.io/1-sliding-window/9_words_concatenation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../educative.io/2-two-pointers/12_minimum_window_sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/../educative.io/2-two-pointers/12_minimum_window_sort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../educative.io/2-two-pointers/1_pair_with_target_sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/../educative.io/2-two-pointers/1_pair_with_target_sum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../educative.io/2-two-pointers/2_remove_duplicates.py" beforeDir="false" afterPath="$PROJECT_DIR$/../educative.io/2-two-pointers/2_remove_duplicates.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../educative.io/2-two-pointers/4_triplet_sum_to_zero.py" beforeDir="false" afterPath="$PROJECT_DIR$/../educative.io/2-two-pointers/4_triplet_sum_to_zero.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../educative.io/2-two-pointers/6_triplet_sum_close_to_target.py" beforeDir="false" afterPath="$PROJECT_DIR$/../educative.io/2-two-pointers/6_triplet_sum_close_to_target.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../educative.io/2-two-pointers/7_triplets_with_smaller_sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/../educative.io/2-two-pointers/7_triplets_with_smaller_sum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../educative.io/2-two-pointers/8_find_products_less_than_target.py" beforeDir="false" afterPath="$PROJECT_DIR$/../educative.io/2-two-pointers/8_find_products_less_than_target.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../educative.io/depth-first-search/6_diameter_of_tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/../educative.io/depth-first-search/6_diameter_of_tree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../educative.io/depth-first-search/7_path_with_maximum_sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/../educative.io/depth-first-search/7_path_with_maximum_sum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../educative.io/easy-binary-search/6_minimum_difference_element.py" beforeDir="false" afterPath="$PROJECT_DIR$/../educative.io/easy-binary-search/6_minimum_difference_element.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../educative.io/easy-cyclic-sort/2_find_missing_number.py" beforeDir="false" afterPath="$PROJECT_DIR$/../educative.io/easy-cyclic-sort/2_find_missing_number.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../educative.io/easy-cyclic-sort/3_find_all_missing_numbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/../educative.io/easy-cyclic-sort/3_find_all_missing_numbers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../educative.io/easy-cyclic-sort/5_find_all_duplicate_numbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/../educative.io/easy-cyclic-sort/5_find_all_duplicate_numbers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../educative.io/heap-related/hard-top-k-elements/10_rearrange_string_2_char_distance.py" beforeDir="false" afterPath="$PROJECT_DIR$/../educative.io/heap-related/hard-top-k-elements/10_rearrange_string_2_char_distance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../educative.io/heap-related/hard-top-k-elements/2_kth_smallest_number.py" beforeDir="false" afterPath="$PROJECT_DIR$/../educative.io/heap-related/hard-top-k-elements/2_kth_smallest_number.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../educative.io/heap-related/hard-top-k-elements/3_closest_points_to_origin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../educative.io/heap-related/hard-top-k-elements/3_closest_points_to_origin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../educative.io/heap-related/hard-top-k-elements/4_connect_ropes.py" beforeDir="false" afterPath="$PROJECT_DIR$/../educative.io/heap-related/hard-top-k-elements/4_connect_ropes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../educative.io/heap-related/hard-top-k-elements/7_find_closest_elements.py" beforeDir="false" afterPath="$PROJECT_DIR$/../educative.io/heap-related/hard-top-k-elements/7_find_closest_elements.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../educative.io/heap-related/medium-k-way-merge/3_kth_smallest_number_sorted_matrix.py" beforeDir="false" afterPath="$PROJECT_DIR$/../educative.io/heap-related/medium-k-way-merge/3_kth_smallest_number_sorted_matrix.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../educative.io/heap-related/medium-merge-intervals/2_insert_interval.py" beforeDir="false" afterPath="$PROJECT_DIR$/../educative.io/heap-related/medium-merge-intervals/2_insert_interval.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../educative.io/medium-dp/0_1-knapsack/2_subset_sum_partition.py" beforeDir="false" afterPath="$PROJECT_DIR$/../educative.io/medium-dp/0_1-knapsack/2_subset_sum_partition.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../educative.io/medium-dp/0_1-knapsack/4_minimum_subset_sum_difference.py" beforeDir="false" afterPath="$PROJECT_DIR$/../educative.io/medium-dp/0_1-knapsack/4_minimum_subset_sum_difference.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../educative.io/medium-dp/palindromic-subsequence/2_longest_palindromic_substring.py" beforeDir="false" afterPath="$PROJECT_DIR$/../educative.io/medium-dp/palindromic-subsequence/2_longest_palindromic_substring.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../educative.io/medium-dp/palindromic-subsequence/3_count_palindromic_substrings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../educative.io/medium-dp/palindromic-subsequence/3_count_palindromic_substrings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../educative.io/medium-subsets/4_permutations_by_changing_case.py" beforeDir="false" afterPath="$PROJECT_DIR$/../educative.io/medium-subsets/4_permutations_by_changing_case.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../educative.io/medium-subsets/8_count_unique_trees.py" beforeDir="false" afterPath="$PROJECT_DIR$/../educative.io/medium-subsets/8_count_unique_trees.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revise-daily/0_primitive-types/1_compute_power_x_y.py" beforeDir="false" afterPath="$PROJECT_DIR$/revise-daily/0_primitive-types/1_compute_power_x_y.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revise-daily/10_sorting/5_team_photo_day.py" beforeDir="false" afterPath="$PROJECT_DIR$/revise-daily/10_sorting/5_team_photo_day.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revise-daily/11_honors_class/inversion_count.py" beforeDir="false" afterPath="$PROJECT_DIR$/revise-daily/11_honors_class/inversion_count.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revise-daily/11_honors_class/lru_cache.py" beforeDir="false" afterPath="$PROJECT_DIR$/revise-daily/11_honors_class/lru_cache.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revise-daily/11_honors_class/maximal_square.py" beforeDir="false" afterPath="$PROJECT_DIR$/revise-daily/11_honors_class/maximal_square.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revise-daily/11_honors_class/skyline.py" beforeDir="false" afterPath="$PROJECT_DIR$/revise-daily/11_honors_class/skyline.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revise-daily/11_honors_class/word_break.py" beforeDir="false" afterPath="$PROJECT_DIR$/revise-daily/11_honors_class/word_break.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revise-daily/1_arrays/10_pascal_triangle.py" beforeDir="false" afterPath="$PROJECT_DIR$/revise-daily/1_arrays/10_pascal_triangle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revise-daily/1_arrays/7_sudoku_checker_problem.py" beforeDir="false" afterPath="$PROJECT_DIR$/revise-daily/1_arrays/7_sudoku_checker_problem.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revise-daily/2_strings/10_compute_valid_ip_addresses.py" beforeDir="false" afterPath="$PROJECT_DIR$/revise-daily/2_strings/10_compute_valid_ip_addresses.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revise-daily/4_hashtables/1_check_palindromic_permutation.py" beforeDir="false" afterPath="$PROJECT_DIR$/revise-daily/4_hashtables/1_check_palindromic_permutation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revise-daily/4_hashtables/2_anonymous_letter_constructible.py" beforeDir="false" afterPath="$PROJECT_DIR$/revise-daily/4_hashtables/2_anonymous_letter_constructible.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revise-daily/4_hashtables/4_lca_optimized.py" beforeDir="false" afterPath="$PROJECT_DIR$/revise-daily/4_hashtables/4_lca_optimized.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revise-daily/4_hashtables/word_pattern.py" beforeDir="false" afterPath="$PROJECT_DIR$/revise-daily/4_hashtables/word_pattern.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revise-daily/5_dynamic_programming/1_count_number_of_score_combinations.py" beforeDir="false" afterPath="$PROJECT_DIR$/revise-daily/5_dynamic_programming/1_count_number_of_score_combinations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revise-daily/5_dynamic_programming/word_break.py" beforeDir="false" afterPath="$PROJECT_DIR$/revise-daily/5_dynamic_programming/word_break.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revise-daily/7_graphs/4_deadlock_detection.py" beforeDir="false" afterPath="$PROJECT_DIR$/revise-daily/7_graphs/4_deadlock_detection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revise-daily/7_graphs/5_clone_graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/revise-daily/7_graphs/5_clone_graph.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revise-daily/7_graphs/6_make_wired_connections.py" beforeDir="false" afterPath="$PROJECT_DIR$/revise-daily/7_graphs/6_make_wired_connections.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revise-daily/8_recursion_and_backtracking/1_phone_mnemonics.py" beforeDir="false" afterPath="$PROJECT_DIR$/revise-daily/8_recursion_and_backtracking/1_phone_mnemonics.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revise-daily/8_recursion_and_backtracking/2_non_attacking_n_queens.py" beforeDir="false" afterPath="$PROJECT_DIR$/revise-daily/8_recursion_and_backtracking/2_non_attacking_n_queens.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revise-daily/8_recursion_and_backtracking/6_palindromic_decompositions.py" beforeDir="false" afterPath="$PROJECT_DIR$/revise-daily/8_recursion_and_backtracking/6_palindromic_decompositions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revise-daily/8_recursion_and_backtracking/word_pattern_II.py" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="epi" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/revise-daily/2_strings/10_compute_valid_ip_addresses.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/revise-daily/11_honors_class/convert_bst_dll.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/revise-daily/11_honors_class/copy_postings_list.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-526" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/revise-daily/11_honors_class/regular_expression_match.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/revise-daily/11_honors_class/longest_valid_parentheses.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/revise-daily/5_dynamic_programming/1_count_number_of_score_combinations.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/revise-daily/1_arrays/3_buy_and_sell_stock_once.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/revise-daily/4_hashtables/9_longest_contained_interval.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/revise-daily/0_primitive-types/3_is_digit_palindrome.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/revise-daily/1_arrays/1_dutch_flag_partition.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>A</find>
+      <find>ci_r</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>arr</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/revise-daily/recursion_and_backtracking/3_generate_permutations.py" />
+        <option value="$PROJECT_DIR$/revise-daily/recursion_and_backtracking/5_parentheses_generation.py" />
+        <option value="$PROJECT_DIR$/revise-daily/recursion_and_backtracking/4_subsets.py" />
+        <option value="$PROJECT_DIR$/revise-daily/recursion_and_backtracking/6_palindromic_decompositions.py" />
+        <option value="$PROJECT_DIR$/revise-daily/recursion_and_backtracking/7_generate_binary_trees.py" />
+        <option value="$PROJECT_DIR$/revise-daily/recursion_and_backtracking/sudoku_solver.py" />
+        <option value="$PROJECT_DIR$/revise-daily/1_arrays/7_sudoku_checker_problem.py" />
+        <option value="$PROJECT_DIR$/revise-daily/5_dynamic_programming/9_longest_non_decreasing_subsequence.py" />
+        <option value="$PROJECT_DIR$/revise-daily/6_greedy_algorithms/1_compute_optimum_task_assignment.py" />
+        <option value="$PROJECT_DIR$/revise-daily/6_greedy_algorithms/2_schedule_minimize_waiting_time.py" />
+        <option value="$PROJECT_DIR$/revise-daily/6_greedy_algorithms/3_interval_covering_problem.py" />
+        <option value="$PROJECT_DIR$/revise-daily/6_greedy_algorithms/4_three_sum_problem.py" />
+        <option value="$PROJECT_DIR$/revise-daily/6_greedy_algorithms/5_majority_element.py" />
+        <option value="$PROJECT_DIR$/revise-daily/6_greedy_algorithms/6_gasup_problem.py" />
+        <option value="$PROJECT_DIR$/revise-daily/6_greedy_algorithms/7_maximum_water.py" />
+        <option value="$PROJECT_DIR$/revise-daily/6_greedy_algorithms/8_compute_largest_rectangle_under_skyline.py" />
+        <option value="$PROJECT_DIR$/revise-daily/7_graphs/1_search_maze.py" />
+        <option value="$PROJECT_DIR$/revise-daily/7_graphs/3_compute_enclosed_regions.py" />
+        <option value="$PROJECT_DIR$/revise-daily/7_graphs/2_paint_boolean_matrix.py" />
+        <option value="$PROJECT_DIR$/revise-daily/7_graphs/4_deadlock_detection.py" />
+        <option value="$PROJECT_DIR$/revise-daily/7_graphs/5_clone_graph.py" />
+        <option value="$PROJECT_DIR$/revise-daily/7_graphs/6_make_wired_connections.py" />
+        <option value="$PROJECT_DIR$/revise-daily/7_graphs/7_transform_one_string_to_another.py" />
+        <option value="$PROJECT_DIR$/revise-daily/7_graphs/8_team_photo.py" />
+        <option value="$PROJECT_DIR$/revise-daily/recursion_and_backtracking/8_sudoku_solver.py" />
+        <option value="$PROJECT_DIR$/revise-daily/9_heaps/1_merge_sorted_files.py" />
+        <option value="$PROJECT_DIR$/revise-daily/9_heaps/2_sort_increasing_decreasing_array.py" />
+        <option value="$PROJECT_DIR$/revise-daily/9_heaps/3_sort_almost_sorted_array.py" />
+        <option value="$PROJECT_DIR$/revise-daily/9_heaps/5_compute_median_data.py" />
+        <option value="$PROJECT_DIR$/revise-daily/9_heaps/4_compute_k_closest_stars.py" />
+        <option value="$PROJECT_DIR$/revise-daily/9_heaps/6_compute_k_largest.py" />
+        <option value="$PROJECT_DIR$/revise-daily/10_searching/search_array_first_occurrence.py" />
+        <option value="$PROJECT_DIR$/revise-daily/8_recursion_and_backtracking/word_pattern_II.py" />
+        <option value="$PROJECT_DIR$/revise-daily/sorting/1_compute_intersection_of_two_sorted_arrays.py" />
+        <option value="$PROJECT_DIR$/revise-daily/sorting/2_merge_two_sorted_arrays.py" />
+        <option value="$PROJECT_DIR$/revise-daily/1_arrays/6_delete_duplicates.py" />
+        <option value="$PROJECT_DIR$/revise-daily/sorting/3_max_constructible_value.py" />
+        <option value="$PROJECT_DIR$/revise-daily/sorting/3_compute_salary_threshold.py" />
+        <option value="$PROJECT_DIR$/revise-daily/sorting/4_partitioning_and_sorting.py" />
+        <option value="$PROJECT_DIR$/revise-daily/sorting/5_team_photo_day.py" />
+        <option value="$PROJECT_DIR$/revise-daily/sorting/6_compute_threshold.py" />
+        <option value="$PROJECT_DIR$/revise-daily/sorting/6_compute_salary_threshold.py" />
+        <option value="$PROJECT_DIR$/revise-daily/10_sorting/6_compute_salary_threshold.py" />
+        <option value="$PROJECT_DIR$/revise-daily/4_hashtables/1_check_palindromic_permutation.py" />
+        <option value="$PROJECT_DIR$/revise-daily/4_hashtables/2_anonymous_letter_constructible.py" />
+        <option value="$PROJECT_DIR$/revise-daily/4_hashtables/4_lca_optimized.py" />
+        <option value="$PROJECT_DIR$/revise-daily/4_hashtables/word_pattern.py" />
+        <option value="$PROJECT_DIR$/revise-daily/5_dynamic_programming/1_count_number_of_score_combinations.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/../educative.io/.idea/educative.io.iml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1920" />
+    <option name="height" value="984" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="epi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="epi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="epi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="epi" type="462c0819:PsiDirectoryNode" />
+              <item name="revise-daily" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.7_smallest_window_subsequence">
+    <configuration name="2_anonymous_letter_constructible" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="epi" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/revise-daily/4_hashtables" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/revise-daily/4_hashtables/2_anonymous_letter_constructible.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="2_merge_two_sorted_arrays" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="epi" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/revise-daily/sorting" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/revise-daily/sorting/2_merge_two_sorted_arrays.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="4_partitioning_and_sorting" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="epi" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/revise-daily/sorting" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/revise-daily/sorting/4_partitioning_and_sorting.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="6_delete_duplicates" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="epi" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/revise-daily/1_arrays" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/revise-daily/1_arrays/6_delete_duplicates.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="7_smallest_window_subsequence" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="epi" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/revise-daily/4_hashtables" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/revise-daily/4_hashtables/7_smallest_window_subsequence.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.7_smallest_window_subsequence" />
+        <item itemvalue="Python.2_anonymous_letter_constructible" />
+        <item itemvalue="Python.4_partitioning_and_sorting" />
+        <item itemvalue="Python.6_delete_duplicates" />
+        <item itemvalue="Python.2_merge_two_sorted_arrays" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="708161c3-6ecc-4600-bb19-8c3a77709abf" name="Default Changelist" comment="" />
+      <created>1614043463507</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614043463507</updated>
+    </task>
+    <task id="LOCAL-00001" summary="2/22/2021">
+      <created>1614044506753</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1614044506753</updated>
+    </task>
+    <task id="LOCAL-00002" summary="2/22/2021">
+      <created>1614044752533</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1614044752533</updated>
+    </task>
+    <task id="LOCAL-00003" summary="2/22/2021">
+      <created>1614046713981</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1614046713981</updated>
+    </task>
+    <task id="LOCAL-00004" summary="2/22/2021">
+      <created>1614068637323</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1614068637323</updated>
+    </task>
+    <task id="LOCAL-00005" summary="2/22/2021">
+      <created>1614098144856</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1614098144856</updated>
+    </task>
+    <task id="LOCAL-00006" summary="2/22/2021">
+      <created>1614098153233</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1614098153233</updated>
+    </task>
+    <task id="LOCAL-00007" summary="2/22/2021">
+      <created>1614112540032</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1614112540032</updated>
+    </task>
+    <task id="LOCAL-00008" summary="2/22/2021">
+      <created>1614113252752</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1614113252752</updated>
+    </task>
+    <task id="LOCAL-00009" summary="2/22/2021">
+      <created>1614115106323</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1614115106323</updated>
+    </task>
+    <task id="LOCAL-00010" summary="2/22/2021">
+      <created>1614115154704</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1614115154704</updated>
+    </task>
+    <task id="LOCAL-00011" summary="2/22/2021">
+      <created>1614116515808</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1614116515808</updated>
+    </task>
+    <task id="LOCAL-00012" summary="2/22/2021">
+      <created>1614119870244</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1614119870244</updated>
+    </task>
+    <task id="LOCAL-00013" summary="2/23/2021">
+      <created>1614130307978</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1614130307978</updated>
+    </task>
+    <task id="LOCAL-00014" summary="2/23/2021">
+      <created>1614134033458</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1614134033458</updated>
+    </task>
+    <task id="LOCAL-00015" summary="2/23/2021">
+      <created>1614134046653</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1614134046653</updated>
+    </task>
+    <task id="LOCAL-00016" summary="2/23/2021">
+      <created>1614134166771</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1614134166771</updated>
+    </task>
+    <task id="LOCAL-00017" summary="2/23/2021">
+      <created>1614135603952</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1614135603952</updated>
+    </task>
+    <task id="LOCAL-00018" summary="2/23/2021">
+      <created>1614150853519</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1614150853519</updated>
+    </task>
+    <task id="LOCAL-00019" summary="2/23/2021">
+      <created>1614151427990</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1614151427990</updated>
+    </task>
+    <task id="LOCAL-00020" summary="2/23/2021">
+      <created>1614215834089</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1614215834089</updated>
+    </task>
+    <task id="LOCAL-00021" summary="2/25/2021">
+      <created>1614276288866</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1614276288866</updated>
+    </task>
+    <task id="LOCAL-00022" summary="2/25/2021">
+      <created>1614311059227</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1614311059227</updated>
+    </task>
+    <task id="LOCAL-00023" summary="2/25/2021">
+      <created>1614314056450</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1614314056450</updated>
+    </task>
+    <task id="LOCAL-00024" summary="2/25/2021">
+      <created>1614314061936</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1614314061936</updated>
+    </task>
+    <task id="LOCAL-00025" summary="2/25/2021">
+      <created>1614316629355</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1614316629355</updated>
+    </task>
+    <task id="LOCAL-00026" summary="2/25/2021">
+      <created>1614318445723</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1614318445723</updated>
+    </task>
+    <task id="LOCAL-00027" summary="2/25/2021">
+      <created>1614324117233</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1614324117233</updated>
+    </task>
+    <task id="LOCAL-00028" summary="2/25/2021">
+      <created>1614327726278</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1614327726278</updated>
+    </task>
+    <task id="LOCAL-00029" summary="2/25/2021">
+      <created>1614389435590</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1614389435590</updated>
+    </task>
+    <task id="LOCAL-00030" summary="2/25/2021">
+      <created>1614459493850</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1614459493850</updated>
+    </task>
+    <task id="LOCAL-00031" summary="2/25/2021">
+      <created>1614467910812</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1614467910812</updated>
+    </task>
+    <task id="LOCAL-00032" summary="2/25/2021">
+      <created>1614471468662</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1614471468662</updated>
+    </task>
+    <task id="LOCAL-00033" summary="2/25/2021">
+      <created>1614474176209</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1614474176209</updated>
+    </task>
+    <task id="LOCAL-00034" summary="2/25/2021">
+      <created>1614474755061</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1614474755061</updated>
+    </task>
+    <task id="LOCAL-00035" summary="2/25/2021">
+      <created>1614482053476</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1614482053476</updated>
+    </task>
+    <task id="LOCAL-00036" summary="2/25/2021">
+      <created>1614482274091</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1614482274091</updated>
+    </task>
+    <task id="LOCAL-00037" summary="2/25/2021">
+      <created>1614482392164</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1614482392164</updated>
+    </task>
+    <task id="LOCAL-00038" summary="2/25/2021">
+      <created>1614482589015</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1614482589015</updated>
+    </task>
+    <task id="LOCAL-00039" summary="2/25/2021">
+      <created>1614800279610</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1614800279610</updated>
+    </task>
+    <task id="LOCAL-00040" summary="2/25/2021">
+      <created>1614918169580</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1614918169580</updated>
+    </task>
+    <task id="LOCAL-00041" summary="2/25/2021">
+      <created>1614918746047</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1614918746047</updated>
+    </task>
+    <task id="LOCAL-00042" summary="2/25/2021">
+      <created>1614921740580</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1614921740580</updated>
+    </task>
+    <task id="LOCAL-00043" summary="2/25/2021">
+      <created>1614934697758</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1614934697758</updated>
+    </task>
+    <task id="LOCAL-00044" summary="2/25/2021">
+      <created>1615160558777</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1615160558777</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1920" height="984" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49832776" visible="true" weight="0.16535018" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" sideWeight="0.50167227" side_tool="true" weight="0.122696154" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2925473" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.34857142" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3503937" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32897604" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.3295964" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3286385" />
+      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2/22/2021" />
+    <MESSAGE value="2/23/2021" />
+    <MESSAGE value="2/25/2021" />
+    <option name="LAST_COMMIT_MESSAGE" value="2/25/2021" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/revise-daily/8_recursion_and_backtracking/6_palindromic_decompositions.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/revise-daily/8_recursion_and_backtracking/7_generate_binary_trees.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/revise-daily/5_dynamic_programming/9_longest_non_decreasing_subsequence.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/revise-daily/9_heaps/1_merge_sorted_files.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/revise-daily/9_heaps/1_merge_sorted_files.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/revise-daily/9_heaps/2_sort_increasing_decreasing_array.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/revise-daily/10_sorting/2_merge_two_sorted_arrays.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/revise-daily/10_sorting/4_partitioning_and_sorting.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/revise-daily/10_sorting/4_partitioning_and_sorting.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/revise-daily/4_hashtables/2_anonymous_letter_constructible.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/revise-daily/4_hashtables/2_anonymous_letter_constructible.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/revise-daily/9_heaps/3_sort_almost_sorted_array.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/revise-daily/9_heaps/4_compute_k_closest_stars.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/revise-daily/stacks/max_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/revise-daily/7_graphs/8_team_photo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/revise-daily/9_heaps/1_merge_sorted_files.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/revise-daily/10_sorting/1_compute_intersection_of_two_sorted_arrays.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/revise-daily/0_primitive-types/1_compute_power_x_y.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/revise-daily/9_heaps/6_compute_k_largest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/revise-daily/10_sorting/2_merge_two_sorted_arrays.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/revise-daily/10_sorting/4_partitioning_and_sorting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/revise-daily/10_sorting/5_team_photo_day.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/revise-daily/10_sorting/3_max_reconstructible_value.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/revise-daily/1_arrays/6_delete_duplicates.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/revise-daily/9_heaps/5_compute_median_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/revise-daily/8_recursion_and_backtracking/1_phone_mnemonics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/revise-daily/8_recursion_and_backtracking/3_generate_permutations.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/revise-daily/8_recursion_and_backtracking/4_subsets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/revise-daily/10_sorting/6_compute_salary_threshold.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/revise-daily/8_recursion_and_backtracking/5_parentheses_generation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/revise-daily/8_recursion_and_backtracking/6_palindromic_decompositions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/revise-daily/8_recursion_and_backtracking/8_sudoku_solver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/revise-daily/5_dynamic_programming/5_knapsack.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/revise-daily/4_hashtables/1_check_palindromic_permutation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/revise-daily/4_hashtables/2_anonymous_letter_constructible.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/revise-daily/5_dynamic_programming/6_bed_bath_and_beyond.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/revise-daily/4_hashtables/8_longest_subarray_with_distinct_entries.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/revise-daily/4_hashtables/6_find_smallest_subarray_covering_all_values.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/revise-daily/4_hashtables/7_smallest_window_subsequence.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="40" column="69" lean-forward="true" selection-start-line="40" selection-start-column="69" selection-end-line="40" selection-end-column="69" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/revise-daily/4_hashtables/word_pattern.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/revise-daily/4_hashtables/3_implement_lru_cache.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/revise-daily/2_strings/wild_card_match.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///usr/local/Cellar/python@3.8/3.8.3_2/Frameworks/Python.framework/Versions/3.8/lib/python3.8/string.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4230">
+          <caret line="282" selection-start-line="282" selection-end-line="282" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/revise-daily/1_arrays/7_sudoku_checker_problem.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/revise-daily/4_hashtables/4_lca_optimized.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/revise-daily/1_arrays/10_pascal_triangle.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/revise-daily/1_arrays/9_rotate_2d_array.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/revise-daily/1_arrays/8_spiral_ordering.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/revise-daily/4_hashtables/10_compute_string_decompositions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/revise-daily/3_linked_lists/4_overlapping_lists.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/revise-daily/4_hashtables/5_find_nearest_repeated_entries.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="43" lean-forward="true" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/revise-daily/5_dynamic_programming/1_count_number_of_score_combinations.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/revise-daily/1_arrays/3_buy_and_sell_stock_once.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/revise-daily/4_hashtables/9_longest_contained_interval.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/revise-daily/0_primitive-types/3_is_digit_palindrome.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/revise-daily/1_arrays/1_dutch_flag_partition.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/revise-daily/2_strings/10_compute_valid_ip_addresses.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/revise-daily/11_honors_class/convert_bst_dll.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/revise-daily/11_honors_class/copy_postings_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-526" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/revise-daily/11_honors_class/regular_expression_match.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/revise-daily/11_honors_class/longest_valid_parentheses.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+</project>

@@ -22,4 +22,4 @@ def reverse_words(s):
 
 
 if __name__ == '__main__':
-    print(''.join(reverse_words(list("this is a test for reversing"))))
+    print(''.join(reverse_words(list("this is a       test for reversing"))))

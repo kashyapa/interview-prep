@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="33951e60-0076-4d9d-ae7e-e2fbf7e12173" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/educative/1-sliding-window/10_max_consecutive_ones.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/educative/1-sliding-window/11_max_consecutive_ones_K_replacements.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/educative/1-sliding-window/1_maximum_sum_subarray.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/educative/1-sliding-window/2_smallest_subarray_sum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/educative/1-sliding-window/3_longest_substring_with_k_distinct_characters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/educative/1-sliding-window/4_fruits_into_basket.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/educative/1-sliding-window/5_longest_string_with_unique_characters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/educative/1-sliding-window/6_longest_string_with_k_replacements.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/educative/1-sliding-window/7_permutation_in_string.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/educative/1-sliding-window/8_minimum_window_substring.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/educative/1-sliding-window/9_words_concatenation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/educative/2-two-pointers/1_triplet_sum_to_zero.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/educative/2-two-pointers/2_square_sorted_array.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/educative/2-two-pointers/3_triplet_sum_close_to_target.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/educative/2-two-pointers/4_triplets_with_smaller_sum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/educative/2-two-pointers/5_find_products_less_than_target.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/educative/2-two-pointers/6_dutch_flag_partition.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/educative/2-two-pointers/7_quadruple_sum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/educative/2-two-pointers/8_backspace_parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/educative/2-two-pointers/9_minimum_window_sort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/educative/3-heap-related/k-way-merge/1_merge_k_sorted_lists.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/educative/3-heap-related/k-way-merge/2_smallest_number.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/educative/3-heap-related/k-way-merge/3_smallest_number_range.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/educative/3-heap-related/k-way-merge/4_k_pairs_with_largest_sum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/educative/3-heap-related/k-way-merge/5_merge_k_sorted_arrays.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/educative/3-heap-related/merge-intervals/1_merge_intervals.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/educative/3-heap-related/merge-intervals/2_insert_interval.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/educative/3-heap-related/merge-intervals/3_intersection_intervals.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/educative/3-heap-related/merge-intervals/4_minimum_meeting_rooms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/educative/3-heap-related/merge-intervals/5_max_cpu_load.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/educative/3-heap-related/merge-intervals/6_employee_free_time.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/educative/3-heap-related/top-largest-elements/10_rearrange_string_2_char_distance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/educative/3-heap-related/top-largest-elements/11_rearrange_string_k_distance_apart.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/educative/3-heap-related/top-largest-elements/12_scheduling_tasks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/educative/3-heap-related/top-largest-elements/1_top_k_largest_numbers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/educative/3-heap-related/top-largest-elements/2_closest_points_to_origin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/educative/3-heap-related/top-largest-elements/3_connect_ropes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/educative/3-heap-related/top-largest-elements/5_top_k_frequent_numbers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/educative/3-heap-related/top-largest-elements/6_frequency_sort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/educative/3-heap-related/top-largest-elements/7_find_closest_elements.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/educative/3-heap-related/top-largest-elements/8_maximum_distinct_elements.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/educative/3-heap-related/top-largest-elements/9_sum_of_elements.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/educative/3-heap-related/two-heaps/1_median_of_number_stream.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/educative/3-heap-related/two-heaps/2_sliding_window_median.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/educative/3-heap-related/two-heaps/3_maximize_capital.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/educative/3-heap-related/two-heaps/4_next_interval.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/educative/4-dynamic-programming/fibonacci/1_calculate_fibonacci.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/educative/4-dynamic-programming/fibonacci/2_staircase.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/educative/4-dynamic-programming/fibonacci/3_minimum_jumps_to_reach_end.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/educative/4-dynamic-programming/fibonacci/4_minimum_jumps_with_fee.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/educative/4-dynamic-programming/fibonacci/5_house_thief.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/educative/4-dynamic-programming/knapsack/1_knapsack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/educative/4-dynamic-programming/knapsack/2_subset_sum_partition.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/educative/4-dynamic-programming/knapsack/3_minimum_subset_sum_difference.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/educative/4-dynamic-programming/knapsack/4_count_subset_sum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/educative/4-dynamic-programming/longest-common-subsequence/1_longest_common_subsequence.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/educative/4-dynamic-programming/longest-common-subsequence/2_longest_common_substring.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/educative/4-dynamic-programming/longest-common-subsequence/3_longest_increasing_subsequence.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/educative/4-dynamic-programming/longest-common-subsequence/4_maximum_sum_increasing_subsequence.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/educative/4-dynamic-programming/longest-common-subsequence/5_shortest_common_supersequence.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/educative/4-dynamic-programming/longest-common-subsequence/6_longest_repeating_sequence.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/educative/4-dynamic-programming/longest-common-subsequence/7_subsequence_pattern_matching.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/educative/4-dynamic-programming/longest-common-subsequence/8_longest_bitonic_sequence.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/educative/4-dynamic-programming/longest-common-subsequence/9_string_interleaving.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/educative/4-dynamic-programming/palindromic-subsequence/1_longest_palindromic_subsequence.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/educative/4-dynamic-programming/palindromic-subsequence/2_longest_palindromic_substring.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/educative/4-dynamic-programming/palindromic-subsequence/3_count_palindromic_substring.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/educative/4-dynamic-programming/palindromic-subsequence/4_palindromic_partitioning.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/educative/5-medium-subsets/1_find_subsets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/educative/5-medium-subsets/2_subsets_with_duplicates.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/educative/5-medium-subsets/3_permutations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/educative/5-medium-subsets/4_permutation_case_sensitive.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/educative/5-medium-subsets/5_balanced_parentheses.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/educative/5-medium-subsets/6_evaluate_expressions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/educative/5-medium-subsets/7_unique_trees.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/educative/5-medium-subsets/8_count_trees.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/epi/arrays/10_generate_pascal_triangle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/epi/arrays/11_plus_one.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/epi/arrays/1_dutch_flag_partition.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/epi/arrays/2_can_jump_to_end.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/epi/arrays/3_buy_and_sell_stock.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/epi/arrays/4_compute_alternation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/epi/arrays/5_enumerate_primes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/epi/arrays/6_sudoku_checker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/epi/arrays/7_spiral_ordering.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/epi/arrays/8_rotate_2d_matrix.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/epi/dp/1_bed_bath_and_beyond.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/epi/dp/2_min_cost_path_in_triangle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/epi/dp/3_coin_pick.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/epi/graphs/1_search_maze.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/epi/graphs/2_paint_boolean_matrix.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/epi/graphs/3_compute_enclosed_regions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/epi/graphs/4_deadlock_detection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/epi/graphs/5_clone_graph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/epi/graphs/6_make_wired_connections.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/epi/graphs/7_transform_one_string_to_another.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/epi/greedy-algorithms/1_max_water_trapped.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/epi/greedy-algorithms/2_compute_largest_rectangle_under_skyline.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/epi/hashtables/1_check_palindromic_permutation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/epi/hashtables/2_anonymous_letter_reconstructible.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/epi/hashtables/3_lru_cache.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/epi/hashtables/4_smallest_subarray_covering_all_values.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/epi/hashtables/5_smallest_window_subsequence.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/epi/hashtables/6_longest_contained_interval.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/epi/honors-class/1_convert_bst_dll.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/epi/honors-class/2_copy_postings_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/epi/honors-class/3_inversion_count.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/epi/honors-class/4_longest_subarray_with_sum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/epi/linked-lists/1_merge_lists.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/epi/linked-lists/2_reverse_sublist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/epi/linked-lists/3_list_pivoting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/epi/linked-lists/4_even_odd_merge.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/epi/recursion_backtracking/1_phone_mnemonic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/epi/recursion_backtracking/2_non_attacking_n_queens.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/epi/recursion_backtracking/3_parentheses_generation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/epi/recursion_backtracking/4_palindromic_decompositions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/epi/recursion_backtracking/5_sudoku_solver.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/epi/strings/1_interconvert_string_to_integer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/epi/strings/2_base_convesion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/epi/strings/3_replace_and_remove.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/epi/strings/4_reverse_words.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/epi/strings/substring_search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/imports.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/mission_google" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/problems_to_revise.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arjuna-vishwamitra-abhimanyu/strategy.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../educative.io/heap-related/hard-top-k-elements/13_frequency_stack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../epi/revise-daily/trees/10_reconstruct_tree_from_preorder_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../epi/revise-daily/trees/11_bst_property_check.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../epi/revise-daily/trees/12_first_key_greater_than_k.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../epi/revise-daily/trees/13_reconstruct_bst_from_pre_order.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../epi/revise-daily/trees/1_is_tree_height_balanced.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../epi/revise-daily/trees/2_symmetric.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../epi/revise-daily/trees/3_lca.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../epi/revise-daily/trees/4_lca_parent_pointers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../epi/revise-daily/trees/5_sum_root_to_leaf_paths.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../epi/revise-daily/trees/6_has_sum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../epi/revise-daily/trees/7_kth_node_in_inorder_traversal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../epi/revise-daily/trees/8_compute_sucessor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../epi/revise-daily/trees/9_reconstruct_tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/educative/binary_search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/educative/breadth_first.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/educative/dp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/educative/final.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/educative/graph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/educative/heap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epi/solutions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../july-18th/epi/problems_to_solve.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../july-20/longest_valid_parentheses.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/educative/10_interval_intersection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/educative/11_merging_intervals.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/educative/12_insert_interval.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/educative/13_kth_smallest_element.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/educative/14_merge_sorted_arrays.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/educative/15_find_smallest_range.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/educative/16_kth_smallest_number.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/educative/17_closest_points_to_origin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/educative/18_find_closest_elements.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/educative/19_binary_search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/educative/1_can_construct.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/educative/20_path_sum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/educative/21_max_path_sum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/educative/22_count_sum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/educative/23_word_break.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/educative/24_dutch_flag_partition.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/educative/2_topological_sorting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/educative/3_alien_dictionary.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/educative/4_balanced_parentheses.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/educative/5_permutation_swapcase.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/educative/6_next_interval.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/educative/7_maximize_capital.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/educative/8_max_cpu_load.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/educative/9_minimmum_meeting_rooms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/educative/util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/epi/10_find_line_through_most_points.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/epi/11_search_element_in_infinite_array.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/epi/12_longest_valid_parentheses.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/epi/13_copy_linked_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/epi/14_implement_list_zipping.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/epi/16_identify_positions_attacked_by_rooks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/epi/17_longest_contiguous_subarray.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/epi/18_maximum_product_of_all_entries_but_one.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/epi/19_transform_one_string_to_another.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/epi/1_trapping_rain_water.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/epi/20_clone_graph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/epi/21_deadlock_detection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/epi/22_compute_enclosed_regions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/epi/23_paint_boolean_matrix.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/epi/24_three_sum_problem.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/epi/25_longest_non_decreasing_subsequence.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/epi/26_coin_pick.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/epi/27_knapsack_problem.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/epi/28_levenstein_distance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/epi/29_sudkou_solver.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/epi/2_maximum_2d_subarray.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/epi/30_generate_binary_trees.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/epi/31_palindromic_decompositions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/epi/32_bed_bath_beyond.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/epi/33_generate_subsets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/epi/34_generate_permutations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/epi/35_n_queens.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/epi/36_phone_mnemonics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/epi/37_compute_lca_bst.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/epi/38_reconstruct_bst_from_traversal_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/epi/39_check_substring_is_concatenation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/epi/3_egg_drop_problem.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/epi/4_compute_maximum_subarray.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/epi/5_defective_jugs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/epi/6_draw_skyline.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/epi/7_count_inversions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/epi/8_convert_bst_to_dll.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/epi/9_convert_sorted_dll_to_bst.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/epi/buy_and_sell_stock.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/walmart/10_triplet_sum_to_zero.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/walmart/11_square_sorted_array.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/walmart/12_zigzag_traversal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/walmart/13_level_order_traversal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/walmart/14_connect_siblings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/walmart/15_path_with_max_sum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/walmart/16_find_paths_to_sum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/walmart/17_merge_intervals.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/walmart/18_insert_interval.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/walmart/19_min_meeting_rooms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/walmart/1_longest_subarray_unique_characters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/walmart/20_max_cpu_load.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/walmart/21_knapsack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/walmart/22_subset_sum_partition.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/walmart/2_longest_substring_with_k_replacements.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/walmart/3_fruits_into_baskets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/walmart/4_longest_substring_with_replacement.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/walmart/5_find_anagrams.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/walmart/6_min_window_substring.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/walmart/7_substring_concatenation_of_words.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/walmart/8_word_break.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../june_2021/walmart/9_remove_duplicates.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../problems_to_revise.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/revise-daily.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/revise-daily.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../april20/epi.py" beforeDir="false" afterPath="$PROJECT_DIR$/../april20/epi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../april_17_18/.idea/april_17_18.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../april_17_18/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../april_17_18/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../april_17_18/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../april_17_18/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../educative.io/.idea/educative.io.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../educative.io/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../educative.io/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../educative.io/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../educative.io/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../educative.io/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../educative.io/1-sliding-window/7_permutation_in_string.py" beforeDir="false" afterPath="$PROJECT_DIR$/../educative.io/1-sliding-window/7_permutation_in_string.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../educative.io/1-sliding-window/max_consecutives_ones_III.py" beforeDir="false" afterPath="$PROJECT_DIR$/../educative.io/1-sliding-window/max_consecutives_ones_III.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../educative.io/2-two-pointers/4_triplet_sum_to_zero.py" beforeDir="false" afterPath="$PROJECT_DIR$/../educative.io/2-two-pointers/4_triplet_sum_to_zero.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../educative.io/breadth-first-search/3_zigzag_level_order_traversal.py" beforeDir="false" afterPath="$PROJECT_DIR$/../educative.io/breadth-first-search/3_zigzag_level_order_traversal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../educative.io/depth-first-search/7_path_with_maximum_sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/../educative.io/depth-first-search/7_path_with_maximum_sum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../educative.io/heap-related/hard-top-k-elements/10_rearrange_string_2_char_distance.py" beforeDir="false" afterPath="$PROJECT_DIR$/../educative.io/heap-related/hard-top-k-elements/10_rearrange_string_2_char_distance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../educative.io/heap-related/hard-top-k-elements/5_top_k_frequent_numbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/../educative.io/heap-related/hard-top-k-elements/5_top_k_frequent_numbers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../educative.io/heap-related/hard-top-k-elements/6_frequency_sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/../educative.io/heap-related/hard-top-k-elements/6_frequency_sort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../educative.io/heap-related/medium-k-way-merge/2_smallest_number.py" beforeDir="false" afterPath="$PROJECT_DIR$/../educative.io/heap-related/medium-k-way-merge/2_smallest_number.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../educative.io/heap-related/medium-k-way-merge/4_smallest_number_range.py" beforeDir="false" afterPath="$PROJECT_DIR$/../educative.io/heap-related/medium-k-way-merge/4_smallest_number_range.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../educative.io/heap-related/medium-merge-intervals/1_merge_intervals.py" beforeDir="false" afterPath="$PROJECT_DIR$/../educative.io/heap-related/medium-merge-intervals/1_merge_intervals.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../educative.io/heap-related/medium-two-heaps/1_median_of_number_stream.py" beforeDir="false" afterPath="$PROJECT_DIR$/../educative.io/heap-related/medium-two-heaps/1_median_of_number_stream.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../educative.io/medium-dp/longest-common-subsequence/6_shortest_common_super_sequence.py" beforeDir="false" afterPath="$PROJECT_DIR$/../educative.io/medium-dp/longest-common-subsequence/6_shortest_common_super_sequence.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../educative.io/medium-dp/longest-common-subsequence/7_minimum_deletions_sorted_sequence.py" beforeDir="false" afterPath="$PROJECT_DIR$/../educative.io/medium-dp/longest-common-subsequence/7_minimum_deletions_sorted_sequence.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../educative.io/medium-dp/palindromic-subsequence/2_longest_palindromic_substring.py" beforeDir="false" afterPath="$PROJECT_DIR$/../educative.io/medium-dp/palindromic-subsequence/2_longest_palindromic_substring.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../educative.io/medium-dp/palindromic-subsequence/3_count_palindromic_substrings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../educative.io/medium-dp/palindromic-subsequence/3_count_palindromic_substrings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../educative.io/medium-topological-sort/accounts_merge.py" beforeDir="false" afterPath="$PROJECT_DIR$/../educative.io/medium-topological-sort/accounts_merge.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../epi/revise-daily/11_honors_class/convert_bst_dll.py" beforeDir="false" afterPath="$PROJECT_DIR$/../epi/revise-daily/11_honors_class/convert_bst_dll.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../epi/revise-daily/11_honors_class/maximal_rectangle.py" beforeDir="false" afterPath="$PROJECT_DIR$/../epi/revise-daily/11_honors_class/maximal_rectangle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../epi/revise-daily/11_honors_class/maximal_square.py" beforeDir="false" afterPath="$PROJECT_DIR$/../epi/revise-daily/11_honors_class/maximal_square.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../epi/revise-daily/2_strings/12_run_length_encoding.py" beforeDir="false" afterPath="$PROJECT_DIR$/../epi/revise-daily/2_strings/12_run_length_encoding.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../epi/revise-daily/2_strings/6_reverse_words.py" beforeDir="false" afterPath="$PROJECT_DIR$/../epi/revise-daily/2_strings/6_reverse_words.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../epi/revise-daily/2_strings/8_convert_roman_to_decimal.py" beforeDir="false" afterPath="$PROJECT_DIR$/../epi/revise-daily/2_strings/8_convert_roman_to_decimal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../epi/revise-daily/3_linked_lists/2_reverse_sublist.py" beforeDir="false" afterPath="$PROJECT_DIR$/../epi/revise-daily/3_linked_lists/2_reverse_sublist.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../epi/revise-daily/3_linked_lists/3_is_cyclic.py" beforeDir="false" afterPath="$PROJECT_DIR$/../epi/revise-daily/3_linked_lists/3_is_cyclic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../epi/revise-daily/3_linked_lists/9_even_odd_merge.py" beforeDir="false" afterPath="$PROJECT_DIR$/../epi/revise-daily/3_linked_lists/9_even_odd_merge.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../epi/revise-daily/4_hashtables/9_longest_contained_interval.py" beforeDir="false" afterPath="$PROJECT_DIR$/../epi/revise-daily/4_hashtables/9_longest_contained_interval.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../epi/revise-daily/4_hashtables/word_pattern.py" beforeDir="false" afterPath="$PROJECT_DIR$/../epi/revise-daily/4_hashtables/word_pattern.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../epi/revise-daily/5_dynamic_programming/1_count_number_of_score_combinations.py" beforeDir="false" afterPath="$PROJECT_DIR$/../epi/revise-daily/5_dynamic_programming/1_count_number_of_score_combinations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../epi/revise-daily/5_dynamic_programming/6_bed_bath_and_beyond.py" beforeDir="false" afterPath="$PROJECT_DIR$/../epi/revise-daily/5_dynamic_programming/6_bed_bath_and_beyond.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../epi/revise-daily/7_graphs/4_deadlock_detection.py" beforeDir="false" afterPath="$PROJECT_DIR$/../epi/revise-daily/7_graphs/4_deadlock_detection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../epi/revise-daily/stacks/max_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/../epi/revise-daily/stacks/max_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../epi/revise-daily/trees/is_tree_height_balanced.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../facebook/.idea/facebook.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../june_2021/.idea/june_2021.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../facebook/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../facebook/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../facebook/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../facebook/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../google/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../google/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../google/algoexpert/next_greater_element.py" beforeDir="false" afterPath="$PROJECT_DIR$/../google/algoexpert/next_greater_element.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../google/epi/convert_dll_to_binary_tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/../google/epi/convert_dll_to_binary_tree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../misc/in_memory_fs.py" beforeDir="false" afterPath="$PROJECT_DIR$/../misc/in_memory_fs.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/educative/dp.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6105">
+              <caret line="407" column="31" selection-start-line="407" selection-start-column="31" selection-end-line="407" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/educative/final.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="817">
+              <caret line="182" column="36" selection-start-line="182" selection-start-column="36" selection-end-line="182" selection-end-column="36" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/educative/heap.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="8580">
+              <caret line="572" column="11" selection-start-line="572" selection-start-column="11" selection-end-line="572" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/educative/graph.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2850">
+              <caret line="190" selection-start-line="190" selection-end-line="190" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/educative/breadth_first.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1740">
+              <caret line="116" selection-start-line="116" selection-end-line="116" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/educative/binary_search.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2880">
+              <caret line="192" column="19" selection-start-line="192" selection-start-column="19" selection-end-line="192" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/epi/solutions.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4620">
+              <caret line="308" column="36" selection-start-line="308" selection-start-column="36" selection-end-line="308" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>inser</find>
+      <find>algo</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/educative/breadth_first.py" />
+        <option value="$PROJECT_DIR$/educative/depth_first.py" />
+        <option value="$PROJECT_DIR$/educative/binary_search.py" />
+        <option value="$PROJECT_DIR$/epi/solutions.py" />
+        <option value="$PROJECT_DIR$/educative/graph.py" />
+        <option value="$PROJECT_DIR$/educative/heap.py" />
+        <option value="$PROJECT_DIR$/educative/dp.py" />
+        <option value="$PROJECT_DIR$/educative/final.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/../educative.io/.idea/educative.io.iml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1920" />
+    <option name="height" value="988" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="google-redo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="google-redo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="google-redo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="google-redo" type="462c0819:PsiDirectoryNode" />
+              <item name="educative" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="google-redo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="google-redo" type="462c0819:PsiDirectoryNode" />
+              <item name="epi" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="dp" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="google-redo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/educative" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/educative/dp.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.dp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="33951e60-0076-4d9d-ae7e-e2fbf7e12173" name="Default Changelist" comment="" />
+      <created>1626317813952</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1626317813952</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1920" height="988" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.261723" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3901099" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3503937" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32061067" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.328125" />
+      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="3" visible="true" weight="0.10625" />
+    </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/epi/solutions.py</url>
+          <line>305</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/educative/depth_first.py" />
+    <entry file="file://$PROJECT_DIR$/educative/dp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6105">
+          <caret line="407" column="31" selection-start-line="407" selection-start-column="31" selection-end-line="407" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/educative/heap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8580">
+          <caret line="572" column="11" selection-start-line="572" selection-start-column="11" selection-end-line="572" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/educative/graph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2850">
+          <caret line="190" selection-start-line="190" selection-end-line="190" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/educative/breadth_first.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1740">
+          <caret line="116" selection-start-line="116" selection-end-line="116" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/educative/binary_search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2880">
+          <caret line="192" column="19" selection-start-line="192" selection-start-column="19" selection-end-line="192" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/epi/solutions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4620">
+          <caret line="308" column="36" selection-start-line="308" selection-start-column="36" selection-end-line="308" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/educative/final.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="817">
+          <caret line="182" column="36" selection-start-line="182" selection-start-column="36" selection-end-line="182" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

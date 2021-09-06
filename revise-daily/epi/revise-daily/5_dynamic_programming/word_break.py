@@ -28,6 +28,16 @@ def word_break(s: str, d: dict):
     print(word_break_dp())
     #word_break_rec(0)
 
+    def word_break3(str, d):
+
+        for i in range(len(str)+1):
+            first = str[:i]
+            if first in d:
+                second = str[i:]
+                if not second or second in d or word_break3(second, d):
+                    return True
+        return False
+
 
 if __name__ == "__main__":
     dictionary = set()

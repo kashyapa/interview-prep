@@ -10,6 +10,7 @@ Space complexity #
 The space complexity will be O(M)O(M) because, at any time, our min-heap will be storing one number from all the
  ‘M’ input arrays.
 """
+
 from heapq import *
 
 

@@ -1,9 +1,10 @@
-# Given a number sequence, find the minimum number of elements that should be deleted to make the remaining
+# Given a number sequence, find the minimum number of
+# elements that should be deleted to make the remaining
 # sequence sorted.
 
 # Input: {4,2,3,6,10,1,12}
 # Output: 2
-# Explanation: We need to delete {4,1} to make the remaing sequence sorted {2,3,6,10,12}.
+# Explanation: We need to delete {4,1} to make the remaining sequence sorted {2,3,6,10,12}.
 def find_minimum_deletions(nums):
     # subtracting the length of LIS from the length of the input array to get minimum number of deletions
     return len(nums) - find_LIS_length(nums)

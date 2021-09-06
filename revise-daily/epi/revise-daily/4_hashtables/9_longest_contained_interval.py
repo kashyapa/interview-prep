@@ -6,7 +6,7 @@ def longest_contained_interval_func(A):
         a = unprocessed_entries.pop()
         lower_bound = a - 1
         while lower_bound in unprocessed_entries:
-            unprocessed_entries.remove(p)
+            unprocessed_entries.remove(lower_bound)
             lower_bound -= 1
 
         upper_bound = a + 1

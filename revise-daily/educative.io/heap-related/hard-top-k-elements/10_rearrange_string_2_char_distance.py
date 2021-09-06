@@ -1,4 +1,5 @@
-# Given a string, find if its letters can be rearranged in such a way that no two same characters come next to each other.
+# Given a string, find if its letters can be rearranged in such a
+# way that no two same characters come next to each other.
 
 # Input: "aappp"
 # Output: "papap"
@@ -19,9 +20,7 @@ def rearrange_string(str):
 
     result_string = []
     while max_heap:
-
         frequency, char = heappop(max_heap)
-
         if previous_char and -previous_frequency > 0:
             heappush(max_heap, (previous_frequency, previous_char))
 

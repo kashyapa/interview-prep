@@ -21,4 +21,4 @@ def phone_mnemonics(ph_number):
 
 
 if __name__ == '__main__':
-    print(phone_mnemonics("8583567273"))
+    print(phone_mnemonics("8573"))

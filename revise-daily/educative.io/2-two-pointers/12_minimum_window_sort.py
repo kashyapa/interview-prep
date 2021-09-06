@@ -5,7 +5,7 @@ def minimum_window_sort(arr):
 
     low, high = 0, len(arr) - 1
 
-    while low < len(arr) - 1  and arr[low] <= arr[low+1]:
+    while low < len(arr) - 1 and arr[low] <= arr[low+1]:
         low += 1
 
     if low == len(arr)-1:
@@ -29,3 +29,4 @@ def minimum_window_sort(arr):
         high += 1
 
     return high - low + 1
+

@@ -1,0 +1,8 @@
+1. count inversions
+2. maximal square
+3. longest palindromic substring
+4. product of array except itself
+5. lca
+6. word break (all types)
+7. anagram in string, minimum window substring, substring concatenation, anonymous letter reconstruction from magazine
+8.

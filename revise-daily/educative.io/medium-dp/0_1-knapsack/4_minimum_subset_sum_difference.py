@@ -8,7 +8,8 @@
 
 
 def can_partition(num):
-    return can_partition_rec(num, 0, 0, 0)
+#    return can_partition_rec(num, 0, 0, 0)
+    return can_partition_dp(num)
 
 
 def can_partition_rec(num, index, sum1, sum2):
@@ -61,13 +62,14 @@ def main():
     print("Can partition: " + str(can_partition([1, 3, 100, 4])))
 
 
-main()
+if __name__ == "__main__":
+    main()
 
 
-def main():
-    print("Can partition: " + str(can_partition([1, 2, 3, 9])))
-    print("Can partition: " + str(can_partition([1, 2, 7, 1, 5])))
-    print("Can partition: " + str(can_partition([1, 3, 100, 4])))
-
-
-main()
+# def main():
+#     print("Can partition: " + str(can_partition([1, 2, 3, 9])))
+#     print("Can partition: " + str(can_partition([1, 2, 7, 1, 5])))
+#     print("Can partition: " + str(can_partition([1, 3, 100, 4])))
+#
+#
+# main()

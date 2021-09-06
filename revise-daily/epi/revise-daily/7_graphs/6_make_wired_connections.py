@@ -1,10 +1,11 @@
+from collections import deque
+
+
 class GraphVertex:
 
     def __init__(self):
         self.d = -1
         self.edges = []
-
-from collections import deque
 
 
 def is_any_placement_feasible(graph: list[GraphVertex]):

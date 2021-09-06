@@ -8,7 +8,7 @@ def bed_bath_beyond(s: str, words: set):
     res = []
     mem = [-1] * (len(s))
 
-    for i in range(1, len(s)):
+    for i in range(len(s)):
         prefix = s[:i + 1]
         if prefix in words:
             mem[i] = len(prefix)
@@ -27,7 +27,6 @@ def bed_bath_beyond(s: str, words: set):
             res.append(s[idx - mem[idx]+1:idx+1])
             idx -= (mem[idx])
         res = res[::-1]
-        # print(mem)
     print(res)
     return res
 

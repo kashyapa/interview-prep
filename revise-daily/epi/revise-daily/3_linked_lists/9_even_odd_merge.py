@@ -31,9 +31,11 @@ if __name__ == '__main__':
     G = ListNode(1, F)
 
     even_odd_merge(G)
-
+    res = []
     while G and G.next:
         if G is None:
             break
-        print(str(G.data) + "-->" + str(G.next.data))
+        res.append(str(G.data) + "-->")
+        # print(str(G.data) + "-->" + str(G.next.data))
         G = G.next
+    print("".join(res))

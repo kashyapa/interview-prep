@@ -1,6 +1,6 @@
 def find_LCS_length(s1, s2):
-    return find_lcs_dp(s1, s2)
-    #find_LCS_length_recursive(s1, s2, 0, 0)
+    #return find_lcs_dp(s1, s2)
+    return find_LCS_length_recursive(s1, s2, 0, 0)
 
 
 def find_LCS_length_recursive(s1, s2, i1, i2):

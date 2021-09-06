@@ -8,18 +8,18 @@
 
 
 def find_MSIS(arr):
-    return find_MSIS_rec(arr, 0, -1, 0)
+    return find_MSIS_rec(arr, 0, -1)
 
 
-def find_MSIS_rec(arr, current_index, prev_index, sum):
+def find_MSIS_rec(arr, current_index, prev_index):
     if current_index >= len(arr):
-        return sum
+        return 0
 
-    s1 = sum
+    s1 = 0
     if prev_index == -1 or arr[current_index] > arr[prev_index]:
-        s1 = find_MSIS_rec(arr, current_index+1, current_index, sum+arr[current_index])
+        s1 += arr[current_index] + find_MSIS_rec(arr, current_index+1, current_index)
 
-    s2 = find_MSIS_rec(arr, current_index+1, prev_index, sum)
+    s2 = find_MSIS_rec(arr, current_index+1, prev_index)
 
     return max(s1, s2)
 

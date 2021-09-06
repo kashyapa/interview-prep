@@ -18,7 +18,7 @@ def find_all_duplicates(nums):
             nums[i], nums[adjusted_index] = nums[adjusted_index], nums[i]
         else:
             i += 1
-
+    print(nums)
     duplicate_numbers = []
     for i in range(len(nums)):
         if nums[i] != i+1:

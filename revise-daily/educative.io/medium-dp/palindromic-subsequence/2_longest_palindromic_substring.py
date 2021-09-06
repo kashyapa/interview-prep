@@ -68,6 +68,8 @@ def find_LPS_length(st):
     return maxLength
 
 
+
+
 def main():
     print(find_LPS_length("abdbca"))
     print(find_LPS_length("cddpd"))

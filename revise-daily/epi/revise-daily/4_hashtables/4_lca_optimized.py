@@ -19,3 +19,4 @@ def optimized_lca(n0: BinaryTreeNode, n1: BinaryTreeNode):
         nodes_on_path.add(n1)
         n1 = n1.parent
     raise ValueError("n0 and n1 not in same tree")
+import string

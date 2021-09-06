@@ -33,13 +33,26 @@ def find_LIS_length(arr):
                 max_length = max(max_length, dp[i])
     return max_length
 
+def longest_increasing_subsequence(nums):
+    dp = [1 for _ in range(len(nums))]
+    max_length = 1
+    for i in range(1, len(nums)):
+        for j in range(i):
+            if nums[i] > nums[j]:
+                dp[i] = max(dp[i], 1+dp[j])
+                max_length = max(max_length, dp[i])
+    return max_length
 
 def main():
     print(find_LIS_length([4, 2, 3, 6, 10, 1, 12]))
     print(find_LIS_length([-4, 10, 3, 7, 15]))
     print(find_LIS([4, 2, 3, 6, 10, 1, 12]))
     print(find_LIS([-4, 10, 3, 7, 15]))
-
+    print("********")
+    print(longest_increasing_subsequence([4, 2, 3, 6, 10, 1, 12]))
+    print(longest_increasing_subsequence([-4, 10, 3, 7, 15]))
+    print(longest_increasing_subsequence([4, 2, 3, 6, 10, 1, 12]))
+    print(longest_increasing_subsequence([-4, 10, 3, 7, 15]))
 
 if __name__ == "__main__":
     main()

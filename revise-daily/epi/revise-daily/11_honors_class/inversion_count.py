@@ -2,7 +2,7 @@ def count_inversion(nums):
     def count_inversion_subarray(l, r):
 
         def merge_sorted_count_inversions(l, m, r):
-            sorted_A= []
+            sorted_A = []
             left_start, right_start, inversion_count = l, m, 0
 
             while left_start < m and right_start < r:

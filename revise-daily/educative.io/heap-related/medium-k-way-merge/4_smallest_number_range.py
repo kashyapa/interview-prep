@@ -1,4 +1,5 @@
-# Given ‘M’ sorted arrays, find the smallest range that includes at least one number from each of the ‘M’ lists.
+# Given ‘M’ sorted arrays, find the smallest
+# range that includes at least one number from each of the ‘M’ lists.
 
 from math import inf
 from heapq import *
@@ -10,7 +11,7 @@ def find_smallest_range(lists):
     min_heap = []
 
     for i, list in enumerate(lists):
-        heappush(min_heap, (list[i], i, list))
+        heappush(min_heap, (list[0], i, list))
         current_max = max(current_max, list[i])
 
     while min_heap:

@@ -7,7 +7,7 @@ class ListNode:
 
 def reverse_sublist(l: ListNode, m: int, n: int):
     prev, dummy = ListNode(), ListNode()
-    prev.next. dummy.next = l, l
+    prev.next, dummy.next = l, l
     while m > 0:
         p = p.next
         m -= 1

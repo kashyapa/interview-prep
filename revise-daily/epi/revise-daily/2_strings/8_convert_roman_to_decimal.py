@@ -27,7 +27,7 @@ def romanToInt(s):
 def roman_to_int(s):
     sum = values[s[-1]]
     for i in reversed(range(len(s)-1)):
-        if s[i] < s[i+1]:
+        if values[s[i]] < values[s[i+1]]:
             sum -= values[s[i]]
         else:
             sum += values[s[i]]

@@ -1,4 +1,4 @@
-# Given an unsorted array of numbers, find the top ‘K’ frequently occurring numbers in it.
+# Given an unsorted array of numbers, find the top ‘K’ frequentl occurring numbers in it.
 
 from heapq import *
 from collections import Counter

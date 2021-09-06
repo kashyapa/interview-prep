@@ -25,7 +25,7 @@ def find_Kth_smallest(matrix, k):
     n = len(matrix)
     start, end = matrix[0][0], matrix[n - 1][n - 1]
     while start < end:
-        mid = start + (end - start) / 2
+        mid = start + (end - start) // 2
         smaller, larger = (matrix[0][0], matrix[n - 1][n - 1])
 
         count, smaller, larger = count_less_equal(matrix, mid, smaller, larger)

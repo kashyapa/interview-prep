@@ -38,6 +38,6 @@ if __name__ == "__main__":
     letter = "excuse i''m here"
     print(anonymous_letter_reconstructible_2(letter, magazine))
 
-    letter = sys.argv[1]
-    magazine = sys.argv[2]
-    print(anonymous_letter_reconstructible_2(letter, magazine))
+    #letter = sys.argv[1]
+    #magazine = sys.argv[2]
+    #print(anonymous_letter_reconstructible_2(letter, magazine))

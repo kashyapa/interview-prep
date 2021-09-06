@@ -14,11 +14,10 @@ def can_partition_recursive(num, s, index):
     if s == 0:
         return True
 
-    for i in range(len(num)):
-        if num[i] <= s:
-            if can_partition_recursive(num, s - num[i], i + 1):
-                return True
-    return can_partition_recursive(num, s, i + 1)
+    if num[index] <= s:
+        if can_partition_recursive(num, s - num[index], index + 1):
+            return True
+    return can_partition_recursive(num, s, index + 1)
 
 
 def can_partition_memo(dp, num, s, index):
@@ -64,9 +63,11 @@ def can_partition_dp(num):
 
 
 def main():
-    print("Can partition: " + str(can_partition_dp([1, 2, 3, 4])))
-    print("Can partition: " + str(can_partition_dp([1, 1, 3, 4, 7])))
+    # print("Can partition: " + str(can_partition_dp([1, 2, 3, 4])))
+    # print("Can partition: " + str(can_partition_dp([1, 1, 3, 4, 7])))
+    print("Can partition: " + str(can_partition([1, 1, 3, 4, 7])))
     print("Can partition: " + str(can_partition_dp([2, 3, 4, 6])))
+    print("Can partition: " + str(can_partition([2, 3, 4, 6])))
 
 
 if __name__ == "__main__":

@@ -17,7 +17,7 @@ def minimum_cost_to_connect_ropes(ropeLengths):
         heappush(min_heap, ropeLengths[i])
 
     while len(min_heap) > 1:
-        temp = heappop(min_heap), heappop(min_heap)
+        temp = heappop(min_heap) + heappop(min_heap)
         result += temp
         heappush(min_heap, temp)
 

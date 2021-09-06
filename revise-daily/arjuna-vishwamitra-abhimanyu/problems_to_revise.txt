@@ -1,0 +1,67 @@
+* minimum knight moves to reach origin
+* tictacttoe
+* prefix trie
+* autocomplete
+* suffix trie
+* in memory filesystem
+* minimum removal for valid parentheses
+* subarray problems
+* serialize and deserialize binary tree
+* maximal square
+* accounts merge
+* median of two sorted arrays
+* logger rate limiter
+* matrix multiplication
+* parenteses problems (bfs) remove minimum invalid braces
+* palindrome problems (palindrome partitioning)
+* island counting
+* number of islands, word search, maze traversal,
+* number of ways to traverse maze
+* tree reconstruction, encoding and decoding of tree, is tree a subtree of a binary search tree, existence of a sequence/target sum in a tree,
+	max path sum
+
+* in-memory filesystem, autocomplete, prefix-trie, suffix trie
+* parentheses (minimum to to be removed to make valid parentheses)
+
+aditya verma
+https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-100-LeetCode-Questions-to-Save-Your-Time-OaM1orEU
+LC grind List https://docs.google.com/spreadsheets/d/19wB9o0qNIBNV-S5PomkcsCLNRaA_3sAu8jsKCoWYT58/edit#gid=0
+S30 --  https://docs.google.com/spreadsheets/d/1O_qwBKEESxXos-4auFjiU56RemuF2Fic--Mm7ABPvHA/edit#gid=0
+
+gaurav sen
+system design -- educative + alex hung
+
+
+
+* minimum knight moves to reach origin
+* tictacttoe
+* prefix trie
+* autocomplete
+* suffix trie
+* in memory filesystem
+* minimum removal for valid parentheses
+* subarray problems
+* serialize and deserialize binary tree
+* maximal square
+* accounts merge
+* median of two sorted arrays
+* logger rate limiter
+    * should a process be killed or not
+    * maximum traffic in a given time window
+    * maximum number of logins in a given time window
+* Queue Max API
+* Stack Max API
+* next greater element
+* peak finding algorithm
+* buy and sell k times
+* median using binary search
+*
+**************
+
+aditya verma
+https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-100-LeetCode-Questions-to-Save-Your-Time-OaM1orEU
+LC grind List https://docs.google.com/spreadsheets/d/19wB9o0qNIBNV-S5PomkcsCLNRaA_3sAu8jsKCoWYT58/edit#gid=0
+S30 --  https://docs.google.com/spreadsheets/d/1O_qwBKEESxXos-4auFjiU56RemuF2Fic--Mm7ABPvHA/edit#gid=0
+
+gaurav sen
+system design -- educative + alex Xu

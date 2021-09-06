@@ -13,6 +13,7 @@ class TreeNode:
         self.left = left
         self.right = right
 
+
 class MaxSum:
     def __init__(self):
         self.max_sum = -math.inf
@@ -30,12 +31,13 @@ def find_maximum_path_sum(root):
         max_sum.max_sum = max(max_sum.max_sum, max(lsum + root.val, rsum + root.val))
         max_sum.max_sum = max(max_sum.max_sum, lsum + root.val + rsum)
 
-        return lsum + rsum + root.val
+        return max(lsum+root.val, rsum+root.val)
 
     max_sum = MaxSum()
 
     find_max_sum_path(root)
     return max_sum.max_sum
+
 
 
 def main():

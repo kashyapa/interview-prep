@@ -11,15 +11,15 @@ def find_missing_number(nums):
     i = 0
     while i < len(nums):
         adjusted_index = nums[i]
-        if nums[i] < len(nums) and nums[i] != nums[adjusted_index]:
+        if adjusted_index < len(nums) and nums[i] != nums[adjusted_index]:
             nums[i], nums[adjusted_index] = nums[adjusted_index], nums[i]
         else:
             i += 1
+    print(nums)
 
     for i in range(len(nums)):
         if nums[i] != i:
             return i
-
     return len(nums)
 
 

@@ -26,10 +26,37 @@ def triplet_sum_close_to_target(arr, target_sum):
     return target_sum - smallest_difference
 
 
+def triplet_sum_close_to_target2(nums, target):
+    triplets = []
+    nums.sort()
+    closest_target = math.inf
+    for i in range(len(nums)-2):
+        if i == 0 or nums[i] != nums[i-1]:
+            l = i+1
+            r = len(nums)-1
+            while l < r:
+                delta = target - (nums[i] + nums[l] + nums[r])
+                if delta == 0:
+                    return target - delta
+                if abs(delta) < abs(closest_target) or abs(delta) == abs(closest_target) and delta > closest_target:
+                    closest_target = delta
+
+                if delta > 0:
+                    l += 1
+                else:
+                    r -= 1
+
+    return target - closest_target
+
+
+
 def main():
     print(triplet_sum_close_to_target([-2, 0, 1, 2], 2))
     print(triplet_sum_close_to_target([-3, -1, 1, 2], 1))
     print(triplet_sum_close_to_target([1, 0, 1, 1], 100))
+    print(triplet_sum_close_to_target2([-2, 0, 1, 2], 2))
+    print(triplet_sum_close_to_target2([-3, -1, 1, 2], 1))
+    print(triplet_sum_close_to_target2([1, 0, 1, 1], 100))
 
 
 if __name__ == '__main__':

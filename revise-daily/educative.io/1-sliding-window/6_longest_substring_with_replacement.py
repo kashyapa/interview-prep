@@ -33,3 +33,19 @@ def length_of_longest_substring(s, k):
 
         max_length = max(max_length, i - l + 1)
     return max_length
+
+
+def length_of_longest_Str_with_char_replace(s, k):
+    char_counter = Counter()
+    max_repeat_character = s[0]
+    l = 0
+    max_length = 0
+    for i, c in enumerate(s):
+        char_counter[c] += 1
+        if char_counter[c] >= char_counter[max_repeat_character]:
+            max_repeat_character = c
+        while i - l + 1 - char_counter[max_repeat_character] > k:
+            char_counter[s[l]] -= 1
+            l += 1
+        max_length = max(max_length, i - l + 1)
+    return max_length

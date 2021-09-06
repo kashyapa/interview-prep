@@ -22,6 +22,7 @@ from heapq import *
 
 """
 
+
 def find_maximum_capital(capital, profits, numberOfProjects, initialCapital):
     max_heap = []
     min_heap = []

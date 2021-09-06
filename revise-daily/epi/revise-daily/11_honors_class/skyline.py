@@ -45,6 +45,34 @@ def getSkyline(buildings):
     return res
 
 
+class BuildingData:
+    def __init__(self, p, height, is_start):
+        self.point= p
+        self.height = height
+        self.is_start = is_start
+
+
+def get_sky_line(buildings):
+
+    start_points = [BuildingPoints(b[0], b[2], True) for b in buildings]
+    end_points = [BuildingPoints(b[1], b[2], False) for b in buildings]
+
+    build_points = start_points + end_points
+    build_points.sort(key=lambda x: x.point)
+    max_heap = [0]
+    res = []
+    for i in range(len(build_points)):
+        if build_points[i].is_start:
+            if not max_heap or build_points[i].height > -max_heap[0]:
+                res.append((build_points[i].point, build_points[i].height))
+            heapq.heappush(max_heap, -build_points[i].height)
+        else:
+            max_heap.remove(-build_points[i].height)
+            heapq.heapify(max_heap)
+            if build_points[i].height > -max_heap[0]:
+                res.append((build_points[i].point, -max_heap[0]))
+    return res
+
 
 if __name__ == "__main__":
-    getSkyline([[2,9,10],[3,7,15],[5,12,12],[15,20,10],[19,24,8]])
+    print(get_sky_line([[2,9,10],[3,7,15],[5,12,12],[15,20,10],[19,24,8]]))

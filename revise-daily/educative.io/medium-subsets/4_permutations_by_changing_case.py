@@ -1,4 +1,4 @@
-# Input: "ad52"
+ # Input: "ad52"
 # Output: "ad52", "Ad52", "aD52", "AD52"
 
 
@@ -19,7 +19,7 @@ def find_letter_case_string_permutations(str):
 
 def main():
     print("String permutations are: " +
-          str(find_letter_case_string_permutations("ad52")))
+          str(find_letter_case_string_permutations("abc")))
     print("String permutations are: " +
           str(find_letter_case_string_permutations("ab7c")))
 

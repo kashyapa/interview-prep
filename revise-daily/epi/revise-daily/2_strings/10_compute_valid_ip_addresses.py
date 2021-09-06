@@ -1,6 +1,7 @@
 def is_valid_part(s):
     return len(s) == 1 or (s[0] != '0' and int(s) <= 255)
 
+
 def get_valid_ip_addresses(s):
     result, parts = [], [''] * 4
 

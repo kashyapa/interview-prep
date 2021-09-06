@@ -10,9 +10,10 @@ def find_Kth_smallest_number(nums, k):
         heappush(max_heap, -nums[i])
 
     for i in range(k, len(nums)):
-        if -nums[i] > max_heap[0]:
+        if nums[i] < -max_heap[0]:
             heappop(max_heap)
             heappush(max_heap, -nums[i])
+    print(max_heap)
 
     return -max_heap[0]
 

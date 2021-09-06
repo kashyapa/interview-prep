@@ -1,15 +1,13 @@
 def palindromic_partitioning(s):
     def palindrome_cutting(start, palindrome_cuts):
         if start == len(s):
-            if palindrome_cuts not in res:
-                res.append(palindrome_cuts[:])
+            res.append(palindrome_cuts[:])
+            return
 
-        for i in range(start, len(s) + 1):
-            prefix = s[start: i + 1]
+        for i in range(start+1, len(s) + 1):
+            prefix = s[start: i ]
             if prefix == prefix[::-1]:
-                palindrome_cuts.append(prefix)
-                palindrome_cutting(i + 1, palindrome_cuts)
-                palindrome_cuts.pop()
+                palindrome_cutting(i, palindrome_cuts+[prefix])
 
         return
 

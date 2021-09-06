@@ -5,7 +5,7 @@ def find_closest_elements(arr, K, X):
     i = index
     j = index + 1
 
-    for i in range(K):
+    for _ in range(K):
         if i >= 0 and j < len(arr):
             diff1 = abs(arr[i] - X)
             diff2 = abs(arr[j] - X)
